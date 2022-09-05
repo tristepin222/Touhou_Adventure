@@ -21,6 +21,8 @@ public class grow : MonoBehaviour
         loots.canHarvest = false;
         sr = this.GetComponent<SpriteRenderer>();
         sr.sprite = sprites[0];
+        
+        sr.sortingOrder += (int)(sr.transform.position.y * -125);
     }
 
   
