@@ -1,0 +1,970 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Test Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Test
+  m_TableCollectionNameGuidString: 94c159934f96c294589eeebed1f15bea
+  m_Entries:
+  - m_Id: 27597623296
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 391466078208
+    m_Key: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409388339200
+    m_Key: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3041024692224
+    m_Key: Excellent Music Producer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3935497768960
+    m_Key: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4039231295488
+    m_Key: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4451636236288
+    m_Key: Character name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4573619179520
+    m_Key: Visible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11948421959680
+    m_Key: Ribbon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13323809738752
+    m_Key: Style 0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13512071073792
+    m_Key: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13556065128448
+    m_Key: 'Comfirm '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43260692287488
+    m_Key: Daikon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63584498503680
+    m_Key: Satsumaimo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100758610661376
+    m_Key: Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100821219037184
+    m_Key: FireFish_Small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100918115848192
+    m_Key: FireFish_Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101012026314752
+    m_Key: FishingRod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101311684169728
+    m_Key: Hoe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101402033672192
+    m_Key: Lamprey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101446254219264
+    m_Key: MistyFish_Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101626798034944
+    m_Key: MistyFish_Small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101733144612864
+    m_Key: Pond_Loach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322314716729344
+    m_Key: Press_E
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322995661983744
+    m_Key: info1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 468178735091712
+    m_Key: Marisa1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1175034898042880
+    m_Key: Marisa0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1381676897947648
+    m_Key: Marisa2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1505085237645312
+    m_Key: Marisa3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1507549403828224
+    m_Key: Baguette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2134049022955520
+    m_Key: Marisa4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2279839494197248
+    m_Key: Mokou0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505762801864704
+    m_Key: Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505791960666112
+    m_Key: Leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505910525251584
+    m_Key: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505959577636864
+    m_Key: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432350686629888
+    m_Key: crystal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432396610064384
+    m_Key: iron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432409822121984
+    m_Key: ironOre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6219319397732352
+    m_Key: crystal pellets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6275959283142656
+    m_Key: iron ore pellets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6576063315595264
+    m_Key: pickaxe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7649751213428736
+    m_Key: gotostation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7658849648660480
+    m_Key: gotostation1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7662184531382272
+    m_Key: gotostation2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9492551781470208
+    m_Key: cirno0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9492752147566592
+    m_Key: cirno1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9492889389387776
+    m_Key: cirno2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9757159171706880
+    m_Key: cirno4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9819590476582912
+    m_Key: cirno5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843813886611456
+    m_Key: 'alice0
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843836112228352
+    m_Key: 'alice1
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843837534097408
+    m_Key: 'alice2
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843878470504448
+    m_Key: 'alice3
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843909810343936
+    m_Key: 'alice4
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9847676551188480
+    m_Key: 'alice5
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13854809282203648
+    m_Key: Keine0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13854868451250176
+    m_Key: Keine1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13855009149177856
+    m_Key: Keine2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13855100119437312
+    m_Key: Keine3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14253051341852672
+    m_Key: Kosuzu0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14253111735635968
+    m_Key: Kosuzu1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14253181214281728
+    m_Key: Kosuzu2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14253369974738944
+    m_Key: Kosuzu3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174586822971392
+    m_Key: Akyuu0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174663146721280
+    m_Key: Akyuu1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174741089472512
+    m_Key: Akyuu2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174789831479296
+    m_Key: Akyuu3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15180373800669184
+    m_Key: ReisenS0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15180379790135296
+    m_Key: ReisenS1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15180390175232000
+    m_Key: ReisenS2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15180400161869824
+    m_Key: ReisenS3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185571642232832
+    m_Key: Miyoi0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185587505090560
+    m_Key: Miyoi1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185599911841792
+    m_Key: Miyoi2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185607570640896
+    m_Key: Miyoi4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185934244007936
+    m_Key: Miyoi5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15187946780119040
+    m_Key: Sekibanki0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15188055827828736
+    m_Key: Sekibanki1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15188127294574592
+    m_Key: Sekibanki2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15188177760440320
+    m_Key: Sekibanki3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15268202773893120
+    m_Key: Yokai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15268221811838976
+    m_Key: Human
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15658172458094592
+    m_Key: HealthPotion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24379845051043840
+    m_Key: genericseller1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24379851174727680
+    m_Key: genericseller2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24379860188286976
+    m_Key: genericseller3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25735190696579072
+    m_Key: kirisameyaShop1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25735198250520576
+    m_Key: kirisameyaShop2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25735205078847488
+    m_Key: kirisameyaShop3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25735885973770240
+    m_Key: none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25743277797036032
+    m_Key: daikon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30395119848017920
+    m_Key: hoe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33775797218201600
+    m_Key: yuuka0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33775924049760256
+    m_Key: yuuka1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33776054916239360
+    m_Key: yuuka2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33776143206338560
+    m_Key: yuuka3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33816344402219008
+    m_Key: yuuka4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38020597995950080
+    m_Key: reimu0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38020713427390464
+    m_Key: reimu1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38020802778648576
+    m_Key: reimu2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38020876447404032
+    m_Key: reimu3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38021080768729088
+    m_Key: reimu4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38021135416315904
+    m_Key: reimu5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42116501686341632
+    m_Key: GeneralShop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42116800836685824
+    m_Key: PlayerHouse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42116966599774208
+    m_Key: KirisameShop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42118006678114304
+    m_Key: Kourindou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42118498246348800
+    m_Key: MistyLake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42118835485167616
+    m_Key: MiningSite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43082486564147200
+    m_Key: objt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43090750899113984
+    m_Key: gotostation0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43090786454228992
+    m_Key: gotostationdesc0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43118094607077376
+    m_Key: non
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43127062339407872
+    m_Key: board0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43127068542783488
+    m_Key: boarddesc0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43566087000969216
+    m_Key: gotomine0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43566130823057408
+    m_Key: gotominedesc0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43597082425184256
+    m_Key: takepickaxe0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43597092210495488
+    m_Key: takepickaxedesc0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43940365110235136
+    m_Key: craftItem0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43940424199589888
+    m_Key: craftItemdesc0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43969602701643776
+    m_Key: tutbase1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43971021886345216
+    m_Key: tutbase0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43976398942130176
+    m_Key: buttons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43976510175072256
+    m_Key: buttons1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44295118063292416
+    m_Key: Buttons2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44295301962551296
+    m_Key: Buttons3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44295654808375296
+    m_Key: Buttons4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44296053292421120
+    m_Key: Buttons5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301278745088000
+    m_Key: tutbasedesc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301312781864960
+    m_Key: tut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301402439307264
+    m_Key: tutbase2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301555569152000
+    m_Key: answer11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303701605765120
+    m_Key: tutbase3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303726436044800
+    m_Key: tutbasedesc3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44319209180778496
+    m_Key: tutbase4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44319319797157888
+    m_Key: tutbasedesc4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50825842476077056
+    m_Key: meiling0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50880483893071872
+    m_Key: VampireAmulet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51237940469321728
+    m_Key: answer0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51586802937647104
+    m_Key: answer1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51586858054995968
+    m_Key: player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51588247481110528
+    m_Key: answer2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51588598988951552
+    m_Key: answer3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51588738772520960
+    m_Key: Marisa5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51589208773644288
+    m_Key: answer4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51589629592358912
+    m_Key: answer5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52618142134980608
+    m_Key: answer6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52653849880711168
+    m_Key: answer7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52653851638124544
+    m_Key: answer8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52653853592670208
+    m_Key: keine4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52653855329112064
+    m_Key: answer9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53622348149051392
+    m_Key: Miyoi6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53622977437257728
+    m_Key: answer12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53623390634921984
+    m_Key: answer13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53624920574414848
+    m_Key: answer14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53629908231016448
+    m_Key: 'answer15
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53637551565721600
+    m_Key: answer16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53642306019020800
+    m_Key: answer17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56138126937182208
+    m_Key: answer18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56138369883852800
+    m_Key: answer19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56138686608330752
+    m_Key: answer20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56140292540223488
+    m_Key: answer21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56140479601987584
+    m_Key: answer22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56140786696343552
+    m_Key: answer23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56141121607323648
+    m_Key: answer24
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56144132152905728
+    m_Key: answer25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57352865612713984
+    m_Key: answer26
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57352867764391936
+    m_Key: keine5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57393140355715072
+    m_Key: answer27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57393240419225600
+    m_Key: keine6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57393791097786368
+    m_Key: answer28
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57394674053304320
+    m_Key: keine7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57397257560018944
+    m_Key: answer29
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57398559362928640
+    m_Key: keine8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57399158892548096
+    m_Key: keine16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57593529919229952
+    m_Key: gotoreimu0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57593602816233472
+    m_Key: gotoreimu0desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60338023349506048
+    m_Key: findhelp0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60338063799373824
+    m_Key: findhelp0desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60338213825433600
+    m_Key: gotoreimu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138770155398713344
+    m_Key: fire1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138785811846352896
+    m_Key: star1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138789480163659776
+    m_Key: yinyang1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138793740892852224
+    m_Key: doll1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140363507428708352
+    m_Key: Keine9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140363515439828992
+    m_Key: Keine10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140365135770767360
+    m_Key: Keine11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140365316079702016
+    m_Key: Keine12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140366589524922368
+    m_Key: KeineEnd1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140676249180131328
+    m_Key: Keine13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141120808376815616
+    m_Key: Keine14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141333704599883776
+    m_Key: Keine15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143489632589795328
+    m_Key: Mokou1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144216770972438528
+    m_Key: TossCoin0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144216799703420928
+    m_Key: TossCoinDesc0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144352781857673216
+    m_Key: reimu6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144352784172929024
+    m_Key: notalk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144377436408598528
+    m_Key: answer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144616245922582528
+    m_Key: reimu7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144942224222146560
+    m_Key: reimu8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144942667505553408
+    m_Key: reimu9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144942942979051520
+    m_Key: reimu10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144990842064949248
+    m_Key: reimu11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145010961692446720
+    m_Key: Keine17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145010998333886464
+    m_Key: Keine18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145337659134791680
+    m_Key: FarmPermit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145342222617235456
+    m_Key: shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146066999438954496
+    m_Key: Keine19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146176711979388928
+    m_Key: Keine20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206761634549760
+    m_Key: Cabbage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206788192882688
+    m_Key: Carrot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206813211906048
+    m_Key: ChineseCabbage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206856681672704
+    m_Key: Cucumber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206883256782848
+    m_Key: Eggplant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206907424362496
+    m_Key: Leek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206925501812736
+    m_Key: Onion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206948528541696
+    m_Key: Potato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206965536444416
+    m_Key: Taro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206998868578304
+    m_Key: Tomato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207023153598464
+    m_Key: Turnip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207193018716160
+    m_Key: CabbageSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207471004602368
+    m_Key: CarrotSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207514109464576
+    m_Key: ChineseCabbageSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207557650534400
+    m_Key: CucumberSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207593285341184
+    m_Key: EggplantSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207636042076160
+    m_Key: LeekSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207678152888320
+    m_Key: OnionSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207706443468800
+    m_Key: SpinachSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207746914308096
+    m_Key: TomatoSeeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207779600519168
+    m_Key: TurnipSeeds
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 6437797089713587094
+  references:
+    version: 2
+    RefIds:
+    - rid: 6437797089713587094
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1625315725816

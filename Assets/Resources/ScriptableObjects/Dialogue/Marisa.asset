@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8b08d46e6c7f84db40bca90172a201, type: 3}
+  m_Name: Marisa
+  m_EditorClassIdentifier: 
+  reactionsPortrait:
+  - {fileID: -7611959909261411043, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  - {fileID: -6729057022544156019, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  - {fileID: -1223365865617157243, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  - {fileID: 7124845699734441143, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  - {fileID: 6841952849870227944, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  - {fileID: 8540916055259910008, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  - {fileID: 2854558464598660133, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  - {fileID: -755142614102353279, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  - {fileID: 8284110309704769314, guid: 5be24a4989653ba48ae2dbfa89f9e60f, type: 3}
+  reactionsSprite: []
+  strings:
+  - Marisa0
+  - Marisa1
+  - Marisa2
+  - Marisa4
+  Badstrings:
+  - Marisa3
+  reactionsType: 08000000000000000200000000000000
+  stringsType: 01000000020000000200000002000000
+  isContinue: 00010101

@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 10d996e86fc65a84a9d9572d596d6ad7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 2
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grass2-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -15}
+        - {x: 8, y: -1}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 1, y: -3}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -6, y: 0}
+        - {x: -8, y: -1}
+        - {x: -8, y: -12}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 3, y: -15}
+        - {x: 4, y: -16}
+        - {x: 7, y: -16}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: b82046986c0a08e20800000000000000
+      internalID: 3350854897332650635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass2-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -14}
+        - {x: 8, y: 7}
+        - {x: 6, y: 9}
+        - {x: 5, y: 9}
+        - {x: 1, y: 6}
+        - {x: -2, y: 9}
+        - {x: -3, y: 9}
+        - {x: -7, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -13}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 2, y: -15}
+        - {x: 3, y: -16}
+        - {x: 6, y: -16}
+      physicsShape:
+      - - {x: 8, y: -13}
+        - {x: 8, y: 6}
+        - {x: 6, y: 8}
+        - {x: 5, y: 8}
+        - {x: 1, y: 5}
+        - {x: -2, y: 8}
+        - {x: -3, y: 8}
+        - {x: -4, y: 7}
+        - {x: -7, y: 7}
+        - {x: -8, y: 6}
+        - {x: -8, y: -12}
+        - {x: -4, y: -16}
+        - {x: 0, y: -16}
+        - {x: 2, y: -14}
+        - {x: 4, y: -16}
+        - {x: 5, y: -16}
+      tessellationDetail: 1
+      bones: []
+      spriteID: f924e32df30653d00800000000000000
+      internalID: 951772723485229727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass2-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -14}
+        - {x: 8, y: 16}
+        - {x: 6, y: 16}
+        - {x: 5, y: 15}
+        - {x: 4, y: 16}
+        - {x: 2, y: 15}
+        - {x: 1, y: 16}
+        - {x: -2, y: 16}
+        - {x: -3, y: 15}
+        - {x: -5, y: 16}
+        - {x: -8, y: 14}
+        - {x: -8, y: -13}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+      physicsShape:
+      - - {x: 8, y: 16}
+        - {x: 7, y: 16}
+        - {x: 5, y: 14}
+        - {x: 4, y: 15}
+        - {x: 2, y: 14}
+        - {x: 0, y: 16}
+        - {x: -1, y: 16}
+        - {x: -3, y: 14}
+        - {x: -5, y: 15}
+        - {x: -7, y: 13}
+        - {x: -8, y: 13}
+        - {x: -8, y: -12}
+        - {x: -5, y: -15}
+        - {x: -4, y: -15}
+        - {x: -3, y: -16}
+        - {x: 0, y: -16}
+        - {x: 1, y: -15}
+        - {x: 5, y: -16}
+        - {x: 8, y: -14}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 2df7ccce3303d19a0800000000000000
+      internalID: -6260794907400831022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass2-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -15}
+        - {x: 8, y: -1}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 1, y: -3}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -6, y: 0}
+        - {x: -8, y: -1}
+        - {x: -8, y: -12}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 3, y: -15}
+        - {x: 4, y: -16}
+        - {x: 7, y: -16}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: c1e5670ed29be4ff0800000000000000
+      internalID: -49898939163976164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass2-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -14}
+        - {x: 8, y: 7}
+        - {x: 6, y: 9}
+        - {x: 5, y: 9}
+        - {x: 1, y: 6}
+        - {x: -2, y: 9}
+        - {x: -3, y: 9}
+        - {x: -7, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -13}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 2, y: -15}
+        - {x: 3, y: -16}
+        - {x: 6, y: -16}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 068ee13ab773d2df0800000000000000
+      internalID: -203445404004587424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass2-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -14}
+        - {x: 8, y: 16}
+        - {x: 6, y: 16}
+        - {x: 5, y: 15}
+        - {x: 4, y: 16}
+        - {x: 2, y: 15}
+        - {x: 1, y: 16}
+        - {x: -2, y: 16}
+        - {x: -3, y: 15}
+        - {x: -5, y: 16}
+        - {x: -8, y: 14}
+        - {x: -8, y: -13}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 91d7a2346e95546c0800000000000000
+      internalID: -4159819835302576871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass2-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -15}
+        - {x: 8, y: -1}
+        - {x: 6, y: 1}
+        - {x: 5, y: 1}
+        - {x: 1, y: -3}
+        - {x: -2, y: 1}
+        - {x: -3, y: 1}
+        - {x: -6, y: 0}
+        - {x: -8, y: -1}
+        - {x: -8, y: -12}
+        - {x: -5, y: -16}
+        - {x: 2, y: -16}
+        - {x: 3, y: -15}
+        - {x: 4, y: -16}
+        - {x: 7, y: -16}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 03c20bb1665e70030800000000000000
+      internalID: 3460987065371470896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass2-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -14}
+        - {x: 8, y: 7}
+        - {x: 6, y: 9}
+        - {x: 5, y: 9}
+        - {x: 1, y: 6}
+        - {x: -2, y: 9}
+        - {x: -3, y: 9}
+        - {x: -7, y: 8}
+        - {x: -8, y: 7}
+        - {x: -8, y: -13}
+        - {x: -6, y: -16}
+        - {x: 1, y: -16}
+        - {x: 2, y: -15}
+        - {x: 3, y: -16}
+        - {x: 6, y: -16}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: bccee67a7aa1f0840800000000000000
+      internalID: 5192398202752396491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass2-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -14}
+        - {x: 8, y: 16}
+        - {x: 6, y: 16}
+        - {x: 5, y: 15}
+        - {x: 4, y: 16}
+        - {x: 2, y: 15}
+        - {x: 1, y: 16}
+        - {x: -2, y: 16}
+        - {x: -3, y: 15}
+        - {x: -5, y: 16}
+        - {x: -8, y: 14}
+        - {x: -8, y: -13}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+      physicsShape: []
+      tessellationDetail: 1
+      bones: []
+      spriteID: 3e6d6068eb7171fa0800000000000000
+      internalID: -5830165085547997469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      grass2-Sheet_8: -5830165085547997469
+      grass2-Sheet_0: 3350854897332650635
+      grass2-Sheet_2: -6260794907400831022
+      grass2-Sheet_5: -4159819835302576871
+      grass2-Sheet_4: -203445404004587424
+      grass2-Sheet_7: 5192398202752396491
+      grass2-Sheet_1: 951772723485229727
+      grass2-Sheet_3: -49898939163976164
+      grass2-Sheet_6: 3460987065371470896
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

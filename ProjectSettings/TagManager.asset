@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MainMenu
+  - cm
+  - Interact
+  - Inventory
+  - Enemi
+  - ProjectilePlayer
+  - EnemiProjectile
+  - collectable
+  - bomb
+  - EnemyPattern
+  - FullException
+  - SpawnAnchor
+  - vc
+  - loadAnchor
+  - cirno_Igloo
+  - obstacle
+  - growableLand
+  - sign
+  - water
+  - catch
+  - border
+  - bottom
+  - top
+  - fish
+  - LootingTable
+  - rainy
+  - sunny
+  - sound
+  - music
+  - UI_Inventory
+  - UI_Life
+  - body
+  - Dynamic
+  - Dynamic2
+  - UI_Hotbar
+  - static
+  - moneyt
+  - GridFarm
+  - ObjectiveList
+  - Objective
+  - point
+  - dirt
+  - stone
+  - pavement
+  - wood
+  - sand
+  - watery
+  - snow
+  - metallic
+  - rug
+  - loadingScene
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Velocity
+  - ScreenSpace
+  - Unwalkable
+  - Unwalkable2
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: base
+    uniqueID: 1654309269
+    locked: 0
+  - name: base2
+    uniqueID: 2792981305
+    locked: 0
+  - name: base3
+    uniqueID: 4018764021
+    locked: 0
+  - name: floor2
+    uniqueID: 427196785
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: roof
+    uniqueID: 1645071807
+    locked: 0
+  - name: UI
+    uniqueID: 3286849853
+    locked: 0

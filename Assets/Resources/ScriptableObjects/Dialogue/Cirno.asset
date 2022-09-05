@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8b08d46e6c7f84db40bca90172a201, type: 3}
+  m_Name: Cirno
+  m_EditorClassIdentifier: 
+  reactionsPortrait:
+  - {fileID: -5964852088867373216, guid: 5c0658007c7efa847b0cfa629bf08bf2, type: 3}
+  - {fileID: 5074444496144702718, guid: 5c0658007c7efa847b0cfa629bf08bf2, type: 3}
+  - {fileID: 2858577264776538326, guid: 5c0658007c7efa847b0cfa629bf08bf2, type: 3}
+  - {fileID: 8307075727553349807, guid: 5c0658007c7efa847b0cfa629bf08bf2, type: 3}
+  - {fileID: 7326137291653857894, guid: 5c0658007c7efa847b0cfa629bf08bf2, type: 3}
+  - {fileID: -6225097414562902665, guid: 5c0658007c7efa847b0cfa629bf08bf2, type: 3}
+  - {fileID: 6768550970603530488, guid: 5c0658007c7efa847b0cfa629bf08bf2, type: 3}
+  - {fileID: 3877393162974635270, guid: 5c0658007c7efa847b0cfa629bf08bf2, type: 3}
+  reactionsSprite: []
+  strings:
+  - cirno0
+  - cirno1
+  - cirno5
+  - cirno4
+  Badstrings:
+  - cirno2
+  reactionsType: 00000000020000000000000000000000
+  stringsType: 02000000030000000200000002000000
+  isContinue: 01000101

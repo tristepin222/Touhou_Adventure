@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: water 1
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -3502645140402274712, guid: 350d5459382335e44a3daee2546c24fa, type: 3}
+  - {fileID: 4293290341420312029, guid: 350d5459382335e44a3daee2546c24fa, type: 3}
+  - {fileID: -862873329420582935, guid: 350d5459382335e44a3daee2546c24fa, type: 3}
+  - {fileID: 7322884965700226066, guid: 350d5459382335e44a3daee2546c24fa, type: 3}
+  - {fileID: -401935582884186827, guid: 350d5459382335e44a3daee2546c24fa, type: 3}
+  m_MinSpeed: 1
+  m_MaxSpeed: 1
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 2

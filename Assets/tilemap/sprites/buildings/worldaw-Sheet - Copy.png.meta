@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: baca16a910df7824997ed8aac90022b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1056026550383341454
+    second: worldaw-Sheet - Copy_0
+  - first:
+      213: 8000922162241261751
+    second: worldaw-Sheet - Copy_1
+  - first:
+      213: 775169210236605952
+    second: worldaw-Sheet - Copy_2
+  - first:
+      213: -3702200458229507323
+    second: worldaw-Sheet - Copy_3
+  - first:
+      213: -1701768018637986292
+    second: worldaw-Sheet - Copy_4
+  - first:
+      213: -716156691936759719
+    second: worldaw-Sheet - Copy_5
+  - first:
+      213: -8944429417734438967
+    second: worldaw-Sheet - Copy_6
+  - first:
+      213: -6246753449975981991
+    second: worldaw-Sheet - Copy_7
+  - first:
+      213: -5157996169593273122
+    second: worldaw-Sheet - Copy_8
+  - first:
+      213: -2286572387122651707
+    second: worldaw-Sheet - Copy_9
+  - first:
+      213: 1139767984362896822
+    second: worldaw-Sheet - Copy_10
+  - first:
+      213: 2738170034793977491
+    second: worldaw-Sheet - Copy_11
+  - first:
+      213: -5143696412211430394
+    second: worldaw-Sheet - Copy_12
+  - first:
+      213: -880293738555737191
+    second: worldaw-Sheet - Copy_13
+  - first:
+      213: 5184045138773505227
+    second: worldaw-Sheet - Copy_14
+  - first:
+      213: 473184251255213430
+    second: worldaw-Sheet - Copy_15
+  - first:
+      213: -3142498233940728818
+    second: worldaw-Sheet - Copy_16
+  - first:
+      213: -5424178967091582319
+    second: worldaw-Sheet - Copy_17
+  - first:
+      213: -2161629595502535968
+    second: worldaw-Sheet - Copy_18
+  - first:
+      213: 8988998867901314745
+    second: worldaw-Sheet - Copy_19
+  - first:
+      213: -280835181029991317
+    second: worldaw-Sheet - Copy_20
+  - first:
+      213: 8970682295829808607
+    second: worldaw-Sheet - Copy_21
+  - first:
+      213: -7146489358844137593
+    second: worldaw-Sheet - Copy_22
+  - first:
+      213: 7132446887338227066
+    second: worldaw-Sheet - Copy_23
+  - first:
+      213: -3543699183602134455
+    second: worldaw-Sheet - Copy_24
+  - first:
+      213: -7542165201965655497
+    second: worldaw-Sheet - Copy_25
+  - first:
+      213: -1973211739583813365
+    second: worldaw-Sheet - Copy_26
+  - first:
+      213: -2367310774029800088
+    second: worldaw-Sheet - Copy_27
+  - first:
+      213: -5895228275516486184
+    second: worldaw-Sheet - Copy_28
+  - first:
+      213: 6651165115444214181
+    second: worldaw-Sheet - Copy_29
+  - first:
+      213: -7050864974717720749
+    second: worldaw-Sheet - Copy_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270150f827d3851f0800000000000000
+      internalID: -1056026550383341454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0d0fbd05cf80f60800000000000000
+      internalID: 8000922162241261751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00619f82a44f1ca00800000000000000
+      internalID: 775169210236605952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b11ff5c442f9cc0800000000000000
+      internalID: -3702200458229507323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0666fed00b1268e0800000000000000
+      internalID: -1701768018637986292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95037957843bf06f0800000000000000
+      internalID: -716156691936759719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf726d85d00fd380800000000000000
+      internalID: -8944429417734438967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9585cbe75d21f49a0800000000000000
+      internalID: -6246753449975981991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4419edfcd1b68b0800000000000000
+      internalID: -5157996169593273122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd565857867440e0800000000000000
+      internalID: -2286572387122651707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd305a61f441df00800000000000000
+      internalID: 1139767984362896822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3969382a32feff520800000000000000
+      internalID: 2738170034793977491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cbfa59d5bed98b0800000000000000
+      internalID: -5143696412211430394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b726f328198c3f0800000000000000
+      internalID: -880293738555737191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc47f24669d61f740800000000000000
+      internalID: 5184045138773505227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d4069c196119600800000000000000
+      internalID: 473184251255213430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_16
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04aba2818a9364d0800000000000000
+      internalID: -3142498233940728818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_17
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a6c5cc7f179b4b0800000000000000
+      internalID: -5424178967091582319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea9910f5595002e0800000000000000
+      internalID: -2161629595502535968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_19
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b675a738d65fbc70800000000000000
+      internalID: 8988998867901314745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_20
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c564a04e54a1cf0800000000000000
+      internalID: -280835181029991317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_21
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd542d3f4044e7c70800000000000000
+      internalID: 8970682295829808607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f6cf6bac192dc90800000000000000
+      internalID: -7146489358844137593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_23
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75b22b97aa8bf260800000000000000
+      internalID: 7132446887338227066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_24
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9429d8a2e5042dec0800000000000000
+      internalID: -3543699183602134455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_25
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a568b75b8d45790800000000000000
+      internalID: -7542165201965655497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09e97b906ebd94e0800000000000000
+      internalID: -1973211739583813365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_27
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86daff0c46f952fd0800000000000000
+      internalID: -2367310774029800088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_28
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd40002e11ff2ea0800000000000000
+      internalID: -5895228275516486184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_29
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9b580ee6fad4c50800000000000000
+      internalID: 6651165115444214181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worldaw-Sheet - Copy_30
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357e4be99ab462e90800000000000000
+      internalID: -7050864974717720749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      worldaw-Sheet - Copy_23: 7132446887338227066
+      worldaw-Sheet - Copy_26: -1973211739583813365
+      worldaw-Sheet - Copy_18: -2161629595502535968
+      worldaw-Sheet - Copy_11: 2738170034793977491
+      worldaw-Sheet - Copy_30: -7050864974717720749
+      worldaw-Sheet - Copy_5: -716156691936759719
+      worldaw-Sheet - Copy_9: -2286572387122651707
+      worldaw-Sheet - Copy_25: -7542165201965655497
+      worldaw-Sheet - Copy_12: -5143696412211430394
+      worldaw-Sheet - Copy_22: -7146489358844137593
+      worldaw-Sheet - Copy_13: -880293738555737191
+      worldaw-Sheet - Copy_2: 775169210236605952
+      worldaw-Sheet - Copy_29: 6651165115444214181
+      worldaw-Sheet - Copy_28: -5895228275516486184
+      worldaw-Sheet - Copy_24: -3543699183602134455
+      worldaw-Sheet - Copy_6: -8944429417734438967
+      worldaw-Sheet - Copy_15: 473184251255213430
+      worldaw-Sheet - Copy_21: 8970682295829808607
+      worldaw-Sheet - Copy_7: -6246753449975981991
+      worldaw-Sheet - Copy_1: 8000922162241261751
+      worldaw-Sheet - Copy_14: 5184045138773505227
+      worldaw-Sheet - Copy_19: 8988998867901314745
+      worldaw-Sheet - Copy_17: -5424178967091582319
+      worldaw-Sheet - Copy_27: -2367310774029800088
+      worldaw-Sheet - Copy_8: -5157996169593273122
+      worldaw-Sheet - Copy_16: -3142498233940728818
+      worldaw-Sheet - Copy_3: -3702200458229507323
+      worldaw-Sheet - Copy_20: -280835181029991317
+      worldaw-Sheet - Copy_0: -1056026550383341454
+      worldaw-Sheet - Copy_10: 1139767984362896822
+      worldaw-Sheet - Copy_4: -1701768018637986292
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

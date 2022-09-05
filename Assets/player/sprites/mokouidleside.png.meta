@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: e36989d7bae25274cbf3e4c1a7ec7ab7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5791758871505687857
+    second: mokouidleside_0
+  - first:
+      213: 7785085015517235295
+    second: mokouidleside_1
+  - first:
+      213: 8381091766907642618
+    second: mokouidleside_2
+  - first:
+      213: -534358030352298052
+    second: mokouidleside_3
+  - first:
+      213: 3969081064658504925
+    second: mokouidleside_4
+  - first:
+      213: 5646476376519564251
+    second: mokouidleside_5
+  - first:
+      213: 4581417977707796736
+    second: mokouidleside_6
+  - first:
+      213: -6603533651251888961
+    second: mokouidleside_7
+  - first:
+      213: -90473756039196152
+    second: mokouidleside_8
+  - first:
+      213: -7867309633980645532
+    second: mokouidleside_9
+  - first:
+      213: 1770868381713769031
+    second: mokouidleside_10
+  - first:
+      213: -6763029627037508893
+    second: mokouidleside_11
+  - first:
+      213: 2751563860839993154
+    second: mokouidleside_12
+  - first:
+      213: 1391636719879865677
+    second: mokouidleside_13
+  - first:
+      213: -7393563946430082239
+    second: mokouidleside_14
+  - first:
+      213: -1638190467046411501
+    second: mokouidleside_15
+  - first:
+      213: 6869507601902920564
+    second: mokouidleside_16
+  - first:
+      213: -1801891373355473187
+    second: mokouidleside_17
+  - first:
+      213: -4895578854207945891
+    second: mokouidleside_18
+  - first:
+      213: 1474171303644150890
+    second: mokouidleside_19
+  - first:
+      213: 9054327374644565597
+    second: mokouidleside_20
+  - first:
+      213: -4139574858214647156
+    second: mokouidleside_21
+  - first:
+      213: -5599539356291044395
+    second: mokouidleside_22
+  - first:
+      213: -565702242076992025
+    second: mokouidleside_23
+  - first:
+      213: 55243608747181977
+    second: mokouidleside_24
+  - first:
+      213: -8491898244120657108
+    second: mokouidleside_25
+  - first:
+      213: 1627889688089300154
+    second: mokouidleside_26
+  - first:
+      213: -3110509761201927961
+    second: mokouidleside_27
+  - first:
+      213: 6788353995634481433
+    second: mokouidleside_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mokouidleside_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 640
+        width: 26
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcaaf2f0ef98f9fa0800000000000000
+      internalID: -5791758871505687857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 640
+        width: 29
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f580f10139d2a0c60800000000000000
+      internalID: 7785085015517235295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 640
+        width: 29
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af22b7c9e8e9f4470800000000000000
+      internalID: 8381091766907642618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 640
+        width: 36
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf49f9d3349598f0800000000000000
+      internalID: -534358030352298052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 640
+        width: 37
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc03bff232051730800000000000000
+      internalID: 3969081064658504925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 512
+        width: 36
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb551f19505c5e40800000000000000
+      internalID: 5646476376519564251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 512
+        width: 35
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0099cd89067749f30800000000000000
+      internalID: 4581417977707796736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_7
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 512
+        width: 33
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcfac691298b54a0800000000000000
+      internalID: -6603533651251888961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_8
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 512
+        width: 31
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802d9c529929ebef0800000000000000
+      internalID: -90473756039196152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_9
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 512
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f33981293b1d290800000000000000
+      internalID: -7867309633980645532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 384
+        width: 29
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74225042963639810800000000000000
+      internalID: 1770868381713769031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_11
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 384
+        width: 28
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea9cf2e264e422a0800000000000000
+      internalID: -6763029627037508893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_12
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 384
+        width: 27
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f8b26c0c48f2620800000000000000
+      internalID: 2751563860839993154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 384
+        width: 28
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4544d83936105310800000000000000
+      internalID: 1391636719879865677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_14
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 384
+        width: 27
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14356e473c8c46990800000000000000
+      internalID: -7393563946430082239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 256
+        width: 35
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3137441237af349e0800000000000000
+      internalID: -1638190467046411501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 256
+        width: 36
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473e44984c4655f50800000000000000
+      internalID: 6869507601902920564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_17
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 256
+        width: 37
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd66e4fb7556ef6e0800000000000000
+      internalID: -1801891373355473187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_18
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 256
+        width: 37
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53850158f86f0cb0800000000000000
+      internalID: -4895578854207945891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_19
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 256
+        width: 36
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cb8cb7dfe457410800000000000000
+      internalID: 1474171303644150890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_20
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 35
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56d8cd76ce67ad70800000000000000
+      internalID: 9054327374644565597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_21
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 128
+        width: 35
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a5afe49964d86c0800000000000000
+      internalID: -4139574858214647156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 128
+        width: 33
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbe3728f907a42b0800000000000000
+      internalID: -5599539356291044395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_23
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 128
+        width: 31
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eddb5cdec83628f0800000000000000
+      internalID: -565702242076992025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_24
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 128
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9978c7bf4c344c000800000000000000
+      internalID: 55243608747181977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 29
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23cc6af987b62a80800000000000000
+      internalID: -8491898244120657108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 28
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc8510eb0d679610800000000000000
+      internalID: 1627889688089300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_27
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 0
+        width: 27
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e88c253adf35d4d0800000000000000
+      internalID: -3110509761201927961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouidleside_28
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 26
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91995672ef3153e50800000000000000
+      internalID: 6788353995634481433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mokouidleside_16: 6869507601902920564
+      mokouidleside_17: -1801891373355473187
+      mokouidleside_21: -4139574858214647156
+      mokouidleside_3: -534358030352298052
+      mokouidleside_28: 6788353995634481433
+      mokouidleside_25: -8491898244120657108
+      mokouidleside_1: 7785085015517235295
+      mokouidleside_6: 4581417977707796736
+      mokouidleside_19: 1474171303644150890
+      mokouidleside_4: 3969081064658504925
+      mokouidleside_13: 1391636719879865677
+      mokouidleside_23: -565702242076992025
+      mokouidleside_7: -6603533651251888961
+      mokouidleside_9: -7867309633980645532
+      mokouidleside_15: -1638190467046411501
+      mokouidleside_5: 5646476376519564251
+      mokouidleside_14: -7393563946430082239
+      mokouidleside_12: 2751563860839993154
+      mokouidleside_26: 1627889688089300154
+      mokouidleside_27: -3110509761201927961
+      mokouidleside_22: -5599539356291044395
+      mokouidleside_2: 8381091766907642618
+      mokouidleside_10: 1770868381713769031
+      mokouidleside_11: -6763029627037508893
+      mokouidleside_8: -90473756039196152
+      mokouidleside_0: -5791758871505687857
+      mokouidleside_18: -4895578854207945891
+      mokouidleside_24: 55243608747181977
+      mokouidleside_20: 9054327374644565597
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

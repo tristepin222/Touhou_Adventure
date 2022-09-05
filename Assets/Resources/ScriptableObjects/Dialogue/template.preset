@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: template
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 8f8b08d46e6c7f84db40bca90172a201, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.size
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.data[0]
+    value: 
+    objectReference: {fileID: 8284110309704769314, guid: b81e26fb6d8bf2f49b777a12069bc13b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.data[1]
+    value: 
+    objectReference: {fileID: -755142614102353279, guid: b81e26fb6d8bf2f49b777a12069bc13b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.data[2]
+    value: 
+    objectReference: {fileID: 2854558464598660133, guid: b81e26fb6d8bf2f49b777a12069bc13b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.data[3]
+    value: 
+    objectReference: {fileID: 8540916055259910008, guid: b81e26fb6d8bf2f49b777a12069bc13b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.data[4]
+    value: 
+    objectReference: {fileID: 6841952849870227944, guid: b81e26fb6d8bf2f49b777a12069bc13b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.data[5]
+    value: 
+    objectReference: {fileID: 7124845699734441143, guid: b81e26fb6d8bf2f49b777a12069bc13b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.data[6]
+    value: 
+    objectReference: {fileID: -7611959909261411043, guid: b81e26fb6d8bf2f49b777a12069bc13b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: reactionsPortrait.Array.data[7]
+    value: 
+    objectReference: {fileID: -1223365865617157243, guid: b81e26fb6d8bf2f49b777a12069bc13b, type: 3}
+  - target: {fileID: 0}
+    propertyPath: reactionsSprite.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: strings.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: strings.Array.data[0]
+    value: Kosuzu0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: strings.Array.data[1]
+    value: Kosuzu1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: strings.Array.data[2]
+    value: Kosuzu2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Badstrings.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Badstrings.Array.data[0]
+    value: Kosuzu3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reactionsType.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reactionsType.Array.data[0]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reactionsType.Array.data[1]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: reactionsType.Array.data[2]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stringsType.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stringsType.Array.data[0]
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stringsType.Array.data[1]
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: stringsType.Array.data[2]
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: isContinue.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: isContinue.Array.data[0]
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: isContinue.Array.data[1]
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: isContinue.Array.data[2]
+    value: 1
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

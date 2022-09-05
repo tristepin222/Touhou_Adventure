@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8b08d46e6c7f84db40bca90172a201, type: 3}
+  m_Name: Meiling
+  m_EditorClassIdentifier: 
+  reactionsPortrait:
+  - {fileID: 21300000, guid: 8ce1e32c968567f4383f665b6487de8b, type: 3}
+  reactionsSprite: []
+  strings:
+  - meiling0
+  Badstrings:
+  - meiling0
+  reactionsType: 00000000
+  stringsType: 02000000
+  isContinue: 00
+  genericSeller: 0

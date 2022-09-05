@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8b08d46e6c7f84db40bca90172a201, type: 3}
+  m_Name: Yuuka
+  m_EditorClassIdentifier: 
+  reactionsPortrait:
+  - {fileID: -4969065095830676476, guid: 189806c0608ce9240963f6819952341b, type: 3}
+  - {fileID: -1849920703603888309, guid: 189806c0608ce9240963f6819952341b, type: 3}
+  - {fileID: 458229293731922191, guid: 189806c0608ce9240963f6819952341b, type: 3}
+  - {fileID: -4435335804940072413, guid: 189806c0608ce9240963f6819952341b, type: 3}
+  - {fileID: -5690354256501535930, guid: 189806c0608ce9240963f6819952341b, type: 3}
+  - {fileID: -5411248365055747069, guid: 189806c0608ce9240963f6819952341b, type: 3}
+  - {fileID: -74696565308240485, guid: 189806c0608ce9240963f6819952341b, type: 3}
+  reactionsSprite: []
+  strings:
+  - yuuka0
+  - yuuka1
+  - yuuka2
+  - yuuka4
+  Badstrings:
+  - yuuka3
+  reactionsType: 00000000000000000100000001000000
+  stringsType: 02000000020000000200000002000000
+  isContinue: 01010101
+  genericSeller: 0

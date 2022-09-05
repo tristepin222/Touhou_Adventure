@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3446280057271267230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3581714467462807099}
+  - component: {fileID: 7328941585952187645}
+  - component: {fileID: 6130829074181371568}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3581714467462807099
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446280057271267230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6590274738760743923}
+  m_Father: {fileID: 6590274739028702302}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -33.124996}
+  m_SizeDelta: {x: -50.4438, y: -72.0953}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7328941585952187645
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446280057271267230}
+  m_CullTransparentMesh: 1
+--- !u!114 &6130829074181371568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3446280057271267230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0d8936d7f43451c4190ff4a00bd287d2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6590274739028702290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6590274739028702302}
+  - component: {fileID: 6590274739028702303}
+  - component: {fileID: 6590274739028702300}
+  - component: {fileID: 6590274739028702301}
+  - component: {fileID: 6590274739028702297}
+  - component: {fileID: 945091523350589663}
+  m_Layer: 5
+  m_Name: UI_Inventory
+  m_TagString: UI_Inventory
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6590274739028702302
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739028702290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6590274739473350035}
+  - {fileID: 3581714467462807099}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &6590274739028702303
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739028702290}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 2
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 100
+  m_TargetDisplay: 0
+--- !u!114 &6590274739028702300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739028702290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!114 &6590274739028702301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739028702290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6590274739028702297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739028702290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6be82d0403354041802d81215ef7cba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSlotContainer: {fileID: 6590274738760743923}
+  itemSlotTemplate: {fileID: 6590274738851464998}
+  itemSlotContainer2: {fileID: 0}
+  FullException: {fileID: 6590274739473350034}
+  gameObjects: []
+  myString:
+    m_TableReference:
+      m_TableCollectionName: GUID:94c159934f96c294589eeebed1f15bea
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 1
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &945091523350589663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739028702290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!1 &6590274739473350032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6590274739473350035}
+  - component: {fileID: 6590274739473350045}
+  - component: {fileID: 6590274739473350034}
+  m_Layer: 5
+  m_Name: FullException
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6590274739473350035
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739473350032}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6590274739028702302}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 34.2, y: -173}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6590274739473350045
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739473350032}
+  m_CullTransparentMesh: 0
+--- !u!114 &6590274739473350034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6590274739473350032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 49bd6c14b97d01942aad328ddfac65be, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Inventory Full!
+--- !u!1001 &7144156117710590015
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3581714467462807099}
+    m_Modifications:
+    - target: {fileID: 16156932297133228, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 122950830043472414, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 166370048166369222, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 510064051436830331, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 610861354866140526, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 685867739833858057, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 816629429369881302, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 860975743442573580, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 1145475269351922271, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 1196742252123621505, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 1421254429579175516, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 1533920480369566763, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 1557139255197287384, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 1706123532752862474, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 1768884468354745828, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 1900175950964288063, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 3042184555656369681, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 3728021869091797359, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -314.58337
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 158
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4057883821494938575, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: m_Name
+      value: itemSlotContainer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079081746548906240, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 4283300692098941348, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 4343452870586243572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 4447431293853016952, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 4910882353163185726, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 5063803181234971288, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 5094798097968217582, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 5177166138015064437, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 5333754423341859735, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 5410300073973094402, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 5752156455998558436, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 5795648466088254961, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 5962886157186130410, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 6094584379778009811, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 6127756565837128150, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 6230148586121615541, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 6676271081696890732, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 7027128844724485623, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 7174233640605548048, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 7197447313222665100, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 7404712288745504572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 7744532480914620589, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 7912230712802577893, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 7953544764921795579, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 8013914596023773325, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 8752190644936576515, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    - target: {fileID: 9159600351281541077, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+      propertyPath: canva
+      value: 
+      objectReference: {fileID: 6590274739028702303}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+--- !u!224 &6590274738760743923 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4057883821494938572, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+  m_PrefabInstance: {fileID: 7144156117710590015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &6590274738851464998 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4057883821585602329, guid: a73f68dccd7f1a047bacd2b8791f3b04, type: 3}
+  m_PrefabInstance: {fileID: 7144156117710590015}
+  m_PrefabAsset: {fileID: 0}

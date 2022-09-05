@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8b08d46e6c7f84db40bca90172a201, type: 3}
+  m_Name: Akyuu
+  m_EditorClassIdentifier: 
+  reactionsPortrait:
+  - {fileID: -1223365865617157243, guid: a84a15e6a7c90e24c894e26a101e4bfa, type: 3}
+  - {fileID: -7611959909261411043, guid: a84a15e6a7c90e24c894e26a101e4bfa, type: 3}
+  - {fileID: 7124845699734441143, guid: a84a15e6a7c90e24c894e26a101e4bfa, type: 3}
+  - {fileID: 6841952849870227944, guid: a84a15e6a7c90e24c894e26a101e4bfa, type: 3}
+  - {fileID: 8540916055259910008, guid: a84a15e6a7c90e24c894e26a101e4bfa, type: 3}
+  - {fileID: 2854558464598660133, guid: a84a15e6a7c90e24c894e26a101e4bfa, type: 3}
+  - {fileID: -755142614102353279, guid: a84a15e6a7c90e24c894e26a101e4bfa, type: 3}
+  - {fileID: 8284110309704769314, guid: a84a15e6a7c90e24c894e26a101e4bfa, type: 3}
+  reactionsSprite: []
+  strings:
+  - Akyuu0
+  - Akyuu1
+  - Akyuu2
+  Badstrings:
+  - Akyuu3
+  reactionsType: 040000000000000000000000
+  stringsType: 030000000200000002000000
+  isContinue: 000101

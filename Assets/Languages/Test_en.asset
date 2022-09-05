@@ -1,0 +1,998 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Test_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 94c159934f96c294589eeebed1f15bea, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6437797089713587076
+  m_TableData:
+  - m_Id: 27597623296
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 391466078208
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409388339200
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3041024692224
+    m_Localized: "Excellent Music Producer\uFF1AMakc Telephones"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3935497768960
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4039231295488
+    m_Localized: Load
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4451636236288
+    m_Localized: Character name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4573619179520
+    m_Localized: Visible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11948421959680
+    m_Localized: Ribbon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13323809738752
+    m_Localized: Style 0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13512071073792
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13556065128448
+    m_Localized: Comfirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43260692287488
+    m_Localized: Radish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63584498503680
+    m_Localized: Sweet Potato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100758610661376
+    m_Localized: Coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100821219037184
+    m_Localized: Small fire fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100918115848192
+    m_Localized: Medium fire fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101012026314752
+    m_Localized: FishingRod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101311684169728
+    m_Localized: Hoe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101402033672192
+    m_Localized: Lamprey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101446254219264
+    m_Localized: Medium misty fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101626798034944
+    m_Localized: Small misty fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101733144612864
+    m_Localized: Pond loach
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322314716729344
+    m_Localized: Press "E" to interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 322995661983744
+    m_Localized: 'Left : Misty lake
+
+      Right : Marisa''s house'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 468178735091712
+    m_Localized: right, nice to meet you -,  name's Marisa Kirisame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1175034898042880
+    m_Localized: Hey! who are you ?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1381676897947648
+    m_Localized: Ain't common to see humans aroun' here
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1505085237645312
+    m_Localized: you're annoyin'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1507549403828224
+    m_Localized: Baguette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2134049022955520
+    m_Localized: Ok, bye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2279839494197248
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505762801864704
+    m_Localized: Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505791960666112
+    m_Localized: Leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505910525251584
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2505959577636864
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432350686629888
+    m_Localized: Crystal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432396610064384
+    m_Localized: Iron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4432409822121984
+    m_Localized: Iron ore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6219319397732352
+    m_Localized: Crystal pellets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6275959283142656
+    m_Localized: Iron ore pellets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6576063315595264
+    m_Localized: Pickaxe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7649751213428736
+    m_Localized: i need to go to the train station
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7658849648660480
+    m_Localized: if i remember correctly the station is to the north of my apartment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7662184531382272
+    m_Localized: i need to take the bullet train
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9492551781470208
+    m_Localized: i'm the strongest fairy !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9492752147566592
+    m_Localized: i perfectly know how to math
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9492889389387776
+    m_Localized: you're wrong!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9757159171706880
+    m_Localized: ok! good bye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9819590476582912
+    m_Localized: i've told you !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843813886611456
+    m_Localized: hello stranger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843836112228352
+    m_Localized: 'i have never seen such a face '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843837534097408
+    m_Localized: anyway, how are you doing ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843878470504448
+    m_Localized: Is this so? i'm glad then
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9843909810343936
+    m_Localized: good bye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9847676551188480
+    m_Localized: good bye!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13854809282203648
+    m_Localized: Oh? a human ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13854868451250176
+    m_Localized: Welcome to the human village ! feel free to wander around our shops
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13855009149177856
+    m_Localized: Come to me if you need anything or help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13855100119437312
+    m_Localized: Have a nice day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14253051341852672
+    m_Localized: Hi ! do you like book too ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14253111735635968
+    m_Localized: oh, really ? i like books too !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14253181214281728
+    m_Localized: I hope to see you soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14253369974738944
+    m_Localized: Too bad !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174586822971392
+    m_Localized: I can't remember you, are you new to this place ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174663146721280
+    m_Localized: Ok i see, now i'll remember you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174741089472512
+    m_Localized: Ok ! good bye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15174789831479296
+    m_Localized: Really ? I never saw you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15180373800669184
+    m_Localized: Hi ! are you there to buy medecine ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15180379790135296
+    m_Localized: i have plenty types of medicine, health potion, strength potion,
+      even a hourai elixir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15180390175232000
+    m_Localized: hope you'll come back soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15180400161869824
+    m_Localized: ok bye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185571642232832
+    m_Localized: Welcome to Geidontei, a place where you can drink!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185587505090560
+    m_Localized: would you like to taste some of our alcohol ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185599911841792
+    m_Localized: Well then feel free to try !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185607570640896
+    m_Localized: Good bye ! i hope you'll come back for more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15185934244007936
+    m_Localized: too bad, i hope you'll change your mind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15187946780119040
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15188055827828736
+    m_Localized: i don't want to talk for now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15188127294574592
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15188177760440320
+    m_Localized: stop bothering me!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15268202773893120
+    m_Localized: Yokai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15268221811838976
+    m_Localized: Human
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15658172458094592
+    m_Localized: 'Health potion '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24379845051043840
+    m_Localized: Welcome to the general store !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24379851174727680
+    m_Localized: Here you can buy many things, food, seeds, herbs, ores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24379860188286976
+    m_Localized: you're welcome at any times
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25735190696579072
+    m_Localized: Welcome to the kirisame-ya second hand magic shop!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25735198250520576
+    m_Localized: here you can buy magic items at a discount
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25735205078847488
+    m_Localized: come here at any times!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25735885973770240
+    m_Localized: None
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25743277797036032
+    m_Localized: Radish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30395119848017920
+    m_Localized: Hoe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33775797218201600
+    m_Localized: HI! i'm the guardian of all sunflowers of gensokyo, but you can
+      call me yuuka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33775924049760256
+    m_Localized: sunflowers always tell you where the sun is
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33776054916239360
+    m_Localized: it's important to watch where you're walking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33776143206338560
+    m_Localized: goodbye!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33816344402219008
+    m_Localized: have a nice day, and don't walk over my flowers!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38020597995950080
+    m_Localized: Life is difficult, no money, no worshippers..
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38020713427390464
+    m_Localized: 'woah! A visitor '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38020802778648576
+    m_Localized: sorry i was talking to myself
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38020876447404032
+    m_Localized: welcome to the hakurei shrine! don't mind the giant onis roaming
+      around
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38021080768729088
+    m_Localized: I hope to see you next time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38021135416315904
+    m_Localized: goodbye!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42116501686341632
+    m_Localized: 'General Shop : A place to buy and sell alot of stuff but it costs
+      more'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42116800836685824
+    m_Localized: 'Player House : Where the player lives'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42116966599774208
+    m_Localized: 'Kirisame''s second hand shop : A place that sells basic magic stuff
+      at a bargain'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42118006678114304
+    m_Localized: 'Kourindou : A place that sells special items from the outside word'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42118498246348800
+    m_Localized: 'Misty Lake : A lake with a lot of fog'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42118835485167616
+    m_Localized: 'Mining site : you can mine minerals here'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43082486564147200
+    m_Localized: Current objective
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43090750899113984
+    m_Localized: Go to the train station
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43090786454228992
+    m_Localized: You to need to take the shinkansen to go to Tokyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43118094607077376
+    m_Localized: none
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43127062339407872
+    m_Localized: board the shinkansen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43566087000969216
+    m_Localized: Go to the mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43566130823057408
+    m_Localized: Go to the mine and mine some minerals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43597082425184256
+    m_Localized: Take the pickaxe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43597092210495488
+    m_Localized: Take the pickaxe and mine some minerals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43940365110235136
+    m_Localized: Craft crystal pellets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43940424199589888
+    m_Localized: Craft crystal pellets by dropping a crystal on the crafting menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43969602701643776
+    m_Localized: You can move your character by press W or A or S or D.\n If you
+      want to walk slower, press CTRL.\n If you want to run press SHIFT
+    m_Metadata:
+      m_Items:
+      - rid: 6437797089713587076
+  - m_Id: 43971021886345216
+    m_Localized: Basic movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43976398942130176
+    m_Localized: Buttons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43976510175072256
+    m_Localized: Press it or press M to bring the map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44295118063292416
+    m_Localized: Press it, or press B to bring the inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44295301962551296
+    m_Localized: Press it, or press C to bring the crafting menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44295654808375296
+    m_Localized: Press it, or press V to bring the objectives menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44296053292421120
+    m_Localized: Press it, or press H to bring the tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301402439307264
+    m_Localized: Attacking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301278745088000
+    m_Localized: 'Use LMB to perform basic attacks, each attacks consume 1 projectile.\n
+
+      Use
+      X to perform a bomb, that uses 8 projectile.\n
+
+      Select the projectile
+      you want to shoot by dragging it in the hotbar and pressing 2 times with
+
+      the
+      corresponding numbers on the keyboard (1 to 9)'
+    m_Metadata:
+      m_Items:
+      - rid: 6437797089713587076
+  - m_Id: 44303701605765120
+    m_Localized: Crafting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303726436044800
+    m_Localized: "You can craft items with the crafting menu. \nthe four slots on
+      each side are inputs.\nThe center slot is the output."
+    m_Metadata:
+      m_Items:
+      - rid: 6437797089713587076
+  - m_Id: 44319209180778496
+    m_Localized: Planting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44319319797157888
+    m_Localized: 'after plowing the soil, and equipping a crop, you can RMB on the
+      plowed soil to plant.
+
+      after the plant is finished growing you can harvest
+      with any tools or projectiles.
+
+
+      you can get crops by destroying plants
+      in the wild, or purchasing it from the human village'
+    m_Metadata:
+      m_Items:
+      - rid: 6437797089713587076
+  - m_Id: 50825842476077056
+    m_Localized: .....
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50880483893071872
+    m_Localized: Vampiric Amulet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51237940469321728
+    m_Localized: she is sleeping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51586802937647104
+    m_Localized: I'm a baguette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51588247481110528
+    m_Localized: nice to meet you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51588598988951552
+    m_Localized: why ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51588738772520960
+    m_Localized: The forest of magic is a dangerous place, just like any other places,
+      so that's why. You may also wanna go to the human village to seek shelter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51589208773644288
+    m_Localized: thank you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51589629592358912
+    m_Localized: sorry...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52618142134980608
+    m_Localized: what do you sell ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52653849880711168
+    m_Localized: Yes, indeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52653851638124544
+    m_Localized: No, i'm not
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52653855329112064
+    m_Localized: Understood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52653853592670208
+    m_Localized: this is a human village, do not cause any trouble  or i'll kick
+      you out
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53622348149051392
+    m_Localized: We also sell water
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301555569152000
+    m_Localized: 'I don''t drink '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53622977437257728
+    m_Localized: I'll gladly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53623390634921984
+    m_Localized: Hello ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53624920574414848
+    m_Localized: ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53629908231016448
+    m_Localized: 'Sure
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53637551565721600
+    m_Localized: that's strange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53642306019020800
+    m_Localized: Good bye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56138126937182208
+    m_Localized: HI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56138369883852800
+    m_Localized: Really?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56138686608330752
+    m_Localized: I'm good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56140292540223488
+    m_Localized: i doubt that
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56140479601987584
+    m_Localized: 'you look strong
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56140786696343552
+    m_Localized: that's biased
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56141121607323648
+    m_Localized: so wow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56144132152905728
+    m_Localized: It's ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57352865612713984
+    m_Localized: I'm lost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57352867764391936
+    m_Localized: Oh ? so you're lost ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57393140355715072
+    m_Localized: i was on train
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57393240419225600
+    m_Localized: So you were on a train, slept and then woke up, is that right ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57394674053304320
+    m_Localized: It seems you become stranded inside gensokyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57393791097786368
+    m_Localized: what's gensokyo?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57398559362928640
+    m_Localized: 'it''s a mystical land filled with dangerous youkais.
+
+      Inside
+      this village you''re not at risk but outside, many things can kill you, be
+      careful.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57399158892548096
+    m_Localized: 'Go find reimu, she''s a shrine maiden, her shrine is to the north
+      east of the human village.
+
+      She might be able to bring you back to your
+      world'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57593529919229952
+    m_Localized: Go speak to Reimu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57593602816233472
+    m_Localized: Speak to reimu about your problems
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60338023349506048
+    m_Localized: Find help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60338063799373824
+    m_Localized: you don't regocnize this place, find someone to assist you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60338213825433600
+    m_Localized: Go find Reimu Hakurei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138770155398713344
+    m_Localized: Fire is unaccurate and weak but does damage over time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138785811846352896
+    m_Localized: Stars are so sharp, they pierce enemies, at the cost of damage per
+      enemy pierced and overall damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138789480163659776
+    m_Localized: It's huge and it spins, does a lot of damage, but is slow, it's
+      easy to avoid it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138793740892852224
+    m_Localized: 'Shanghai, hourai dolls are the property of Alice Margatroid, they
+      can be dangerous if you''re not careful enough '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140363507428708352
+    m_Localized: If you want, i can teach you the basic of self defence, so you'll
+      be able to venture out the village, more easily
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140363515439828992
+    m_Localized: Each enemies have set life point and danmaku, they will be different
+      and shoot different bullets, it's up to you to win the fight, destroy the dummy
+      so we  can continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140365135770767360
+    m_Localized: You can collect the loot of the enemy you've destroyed, or not,
+      it's up to you, and leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140365316079702016
+    m_Localized: you don't need to destroy the enemy to win, you can just avoid the
+      fight by going to these platforms at the end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140366589524922368
+    m_Localized: Oh i see, goodbye then
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140676249180131328
+    m_Localized: You did good ! i think you're ready to go on, you can keep the pellets
+      i have given to you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141120808376815616
+    m_Localized: You will now fight me to prove your abilites !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141333704599883776
+    m_Localized: You have much more potential than i thought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143489632589795328
+    m_Localized: ......
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144216770972438528
+    m_Localized: Toss a coin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144216799703420928
+    m_Localized: Maybe that'll make her talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144352781857673216
+    m_Localized: .....
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144352784172929024
+    m_Localized: She won't talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57397257560018944
+    m_Localized: I need help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144616245922582528
+    m_Localized: Wow ! you really donated ! Thanks a lot, i'll try to help you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144942224222146560
+    m_Localized: it seems like yukari captured you from your world to here, unfortunately
+      I can't help you with that
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144942667505553408
+    m_Localized: You need to ask yukari directly, but it's very hard to contact her,
+      she's quite lazy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144942942979051520
+    m_Localized: For now, i suggest you to go back to the human village and start
+      your new life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144990842064949248
+    m_Localized: I heard there is a valuable item you can sell for a profit in the
+      scarlet devil mansion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145010961692446720
+    m_Localized: I can sell you a plot of land for 500 coins at the east of kourindou
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145010998333886464
+    m_Localized: thank you for your purchase, i will show you around
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145337659134791680
+    m_Localized: Farm Permit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145342222617235456
+    m_Localized: i want to buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146066999438954496
+    m_Localized: You bought the farm permit, it was long gone abandoned, i'll show
+      you around
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146176711979388928
+    m_Localized: Here, i unlocked you the path, you can start using your farm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206761634549760
+    m_Localized: Cabbage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206788192882688
+    m_Localized: Carrot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206813211906048
+    m_Localized: Chinese Cabbage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206856681672704
+    m_Localized: Cucumber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206883256782848
+    m_Localized: Eggplant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206907424362496
+    m_Localized: Leek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206925501812736
+    m_Localized: Onion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206948528541696
+    m_Localized: Potato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206965536444416
+    m_Localized: Taro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155206998868578304
+    m_Localized: Tomato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207023153598464
+    m_Localized: Turnip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207193018716160
+    m_Localized: Cabbage Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207471004602368
+    m_Localized: Carrot Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207514109464576
+    m_Localized: Chinese Cabbage Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207557650534400
+    m_Localized: Cucumber Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207593285341184
+    m_Localized: Eggplant Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207636042076160
+    m_Localized: Leek Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207678152888320
+    m_Localized: Onion Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207706443468800
+    m_Localized: Spinach Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207746914308096
+    m_Localized: Tomato Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155207779600519168
+    m_Localized: Turnip Seeds
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 6437797089713587076
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 0050f2e51e369c000050b23ec7639d000050722401669d00005032c12f749d00

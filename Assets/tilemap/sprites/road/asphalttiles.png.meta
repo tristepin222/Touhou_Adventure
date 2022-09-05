@@ -1,0 +1,472 @@
+fileFormatVersion: 2
+guid: 46eb9a6a830829f41be05ac093360c80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3595683633773568669
+    second: asphalttiles_0
+  - first:
+      213: 7223093324708379923
+    second: asphalttiles_1
+  - first:
+      213: -8305110301118368667
+    second: asphalttiles_2
+  - first:
+      213: 4236783850553348179
+    second: asphalttiles_3
+  - first:
+      213: -2392317483934894460
+    second: asphalttiles_4
+  - first:
+      213: 2925908233758763153
+    second: asphalttiles_5
+  - first:
+      213: -482979004996809882
+    second: asphalttiles_6
+  - first:
+      213: -1690235120196823493
+    second: asphalttiles_7
+  - first:
+      213: -5567882633900265809
+    second: asphalttiles_8
+  - first:
+      213: 6639928890682329117
+    second: asphalttiles_9
+  - first:
+      213: 5708940784199268909
+    second: asphalttiles_10
+  - first:
+      213: 5212087984118145417
+    second: asphalttiles_11
+  - first:
+      213: 2014034210177062510
+    second: asphalttiles_12
+  - first:
+      213: -7069948390484862961
+    second: asphalttiles_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: asphalttiles_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1653
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d9d3c29c0991ec0800000000000000
+      internalID: -3595683633773568669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1653
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dfcb6fb159d3460800000000000000
+      internalID: 7223093324708379923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1653
+        width: 258
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564f669fe225ebc80800000000000000
+      internalID: -8305110301118368667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1653
+        width: 258
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3501852f6741cca30800000000000000
+      internalID: 4236783850553348179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1377
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486ba146ce7ccced0800000000000000
+      internalID: -2392317483934894460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1377
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198e496590aea9820800000000000000
+      internalID: 2925908233758763153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_6
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1375
+        width: 256
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b8135672d1c49f0800000000000000
+      internalID: -482979004996809882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_7
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1377
+        width: 256
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3657c90d141b88e0800000000000000
+      internalID: -1690235120196823493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1109
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeee4f8e38eab2b0800000000000000
+      internalID: -5567882633900265809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1109
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1849fe6524c52c50800000000000000
+      internalID: 6639928890682329117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1109
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2affed556b3a3f40800000000000000
+      internalID: 5708940784199268909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_11
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1109
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981a17f186e055840800000000000000
+      internalID: 5212087984118145417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_12
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 841
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66961f717943fb10800000000000000
+      internalID: 2014034210177062510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asphalttiles_13
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 841
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f081ec4a56f72ed90800000000000000
+      internalID: -7069948390484862961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      asphalttiles_5: 2925908233758763153
+      asphalttiles_0: -3595683633773568669
+      asphalttiles_13: -7069948390484862961
+      asphalttiles_10: 5708940784199268909
+      asphalttiles_12: 2014034210177062510
+      asphalttiles_3: 4236783850553348179
+      asphalttiles_2: -8305110301118368667
+      asphalttiles_11: 5212087984118145417
+      asphalttiles_4: -2392317483934894460
+      asphalttiles_7: -1690235120196823493
+      asphalttiles_1: 7223093324708379923
+      asphalttiles_9: 6639928890682329117
+      asphalttiles_8: -5567882633900265809
+      asphalttiles_6: -482979004996809882
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

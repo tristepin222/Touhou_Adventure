@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f720b4dd11ac32740b05d42ed5dcb16a
+  - enabled: 1
+    path: Assets/Scenes/loadingScreen.unity
+    guid: b336254ecb14f954aa431be6574e2252
+  - enabled: 1
+    path: Assets/Scenes/Houses/Game.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Buildings/Cirno_Igloo.unity
+    guid: 0806d8e299a414444a6d974e3609d984
+  - enabled: 1
+    path: Assets/Scenes/stage1.unity
+    guid: cb7da48873725b14486605980a6a3715
+  - enabled: 1
+    path: Assets/Scenes/Corridors/corridor1.unity
+    guid: 3e59fc765fe2ad147899808717d9d080
+  - enabled: 1
+    path: Assets/Scenes/Places/mistyL.unity
+    guid: a727e706f6941d649a375a0410708fc1
+  - enabled: 1
+    path: Assets/Scenes/Houses/marisaH.unity
+    guid: 169842b57bfbad7489f5a2dc4681276a
+  - enabled: 1
+    path: Assets/Scenes/Buildings/MarisaHI.unity
+    guid: 9a841ddfa0715a54c875b9bb27dc0e10
+  - enabled: 1
+    path: Assets/Scenes/Corridors/corridor2.unity
+    guid: 7389c519b06033448b2b9f83fa257b36
+  - enabled: 1
+    path: Assets/Scenes/Houses/aliceH.unity
+    guid: f4d490eb9e9420b418f3c1b4344fb652
+  - enabled: 1
+    path: Assets/Scenes/Places/MountainBambooForest.unity
+    guid: 897525c306f3a984387b8467ecadaf7d
+  - enabled: 1
+    path: Assets/Scenes/Places/MiningArea.unity
+    guid: c15e57ec471bb5149a2f6aed25259e99
+  - enabled: 1
+    path: Assets/Scenes/fishing.unity
+    guid: 350e802344642264ab8fbc8232f2c29d
+  - enabled: 1
+    path: Assets/Scenes/Buildings/PlayerHouseWorld.unity
+    guid: 7aaaa81ba8b52ea438e0adff7284599b
+  - enabled: 1
+    path: Assets/Scenes/Places/world.unity
+    guid: c37f1cbf20b93da4d9b02f504a4f9fc4
+  - enabled: 1
+    path: Assets/Scenes/Houses/cirnoH.unity
+    guid: da5a5ac7d5c73304f815396b82e89348
+  - enabled: 1
+    path: Assets/Scenes/Places/HumanVillage.unity
+    guid: 13c360dfbf97cb24c81bba03e76a7d6e
+  - enabled: 1
+    path: Assets/Scenes/Buildings/shopGeneral.unity
+    guid: 468adce22255e6441a82620cce0127b7
+  - enabled: 1
+    path: Assets/Scenes/Buildings/MarisaShop.unity
+    guid: a2d41cda4c3dfe54fabc978354edb035
+  - enabled: 1
+    path: Assets/Scenes/Houses/Kourindou.unity
+    guid: 9985f70fa2d11324581255d518781c7d
+  - enabled: 1
+    path: Assets/Scenes/Houses/PlayerHouseGensokyo.unity
+    guid: 49d13e9067b3e934c88a84e20c837c75
+  - enabled: 1
+    path: Assets/Scenes/Buildings/PlayerHouseGensokyoInside.unity
+    guid: 09598729b4f29484f9dc55de62a959a2
+  - enabled: 1
+    path: Assets/Scenes/Corridors/corridor3.unity
+    guid: e80dd48b3c827db4fa2a9296e88e9e74
+  - enabled: 1
+    path: Assets/Scenes/Houses/YuukaH.unity
+    guid: 51b3a7a571f8c7346a540685417250c3
+  - enabled: 1
+    path: Assets/Scenes/Places/HoleInMountain.unity
+    guid: ae08463a6f347dd47a65c672ce136686
+  - enabled: 1
+    path: Assets/Scenes/Corridors/corridor4.unity
+    guid: 07882375a91418d43b400ecebe0f19a5
+  - enabled: 1
+    path: Assets/Scenes/Houses/reimuH.unity
+    guid: 2d974e840472c844f814c4dc12e22eb1
+  - enabled: 1
+    path: Assets/Scenes/Corridors/corridor5.unity
+    guid: d2787b88a7f29c847a856fd59360350b
+  - enabled: 1
+    path: Assets/Scenes/Houses/SDM.unity
+    guid: cb90f8d2d423a8b42afee8a5757d356d
+  - enabled: 1
+    path: Assets/Scenes/Buildings/SDMI.unity
+    guid: b2da7999283b8474db53c3f661dbf813
+  - enabled: 1
+    path: Assets/Scenes/Buildings/SDMI2.unity
+    guid: eaee2ee2b6455ee4fa3f31e7aa45243e
+  - enabled: 1
+    path: Assets/Scenes/Buildings/SDMI3.unity
+    guid: 8cc0abce449e1b44490e025d870f92fa
+  - enabled: 1
+    path: Assets/Scenes/Corridors/corridor6.unity
+    guid: 68252603da4bff14f8cc954bc42c2fa2
+  - enabled: 1
+    path: Assets/Scenes/Places/startingArea.unity
+    guid: 0fe197d234d085041b0cd44b7e4d5267
+  - enabled: 1
+    path: Assets/Scenes/fights/FightForest.unity
+    guid: 2b0241a14ceccac48905ce760e1aca3b
+  - enabled: 1
+    path: Assets/Scenes/fights/FightTutorial.unity
+    guid: 02f56eb17a8e3c344806c544ce1145a1
+  - enabled: 1
+    path: Assets/Scenes/fights/FightSceneKeine.unity
+    guid: da41fab42cad2a741ac41f535b6f7e18
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 6e916316ba7847f4587506d78707e6a9, type: 2}
+    com.unity.localization.addressable-group-rules: {fileID: 11400000, guid: 14f1478d20d9991418500cbd3a0df00b, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: ab867a9d177f7de48b014795bc11c473, type: 2}

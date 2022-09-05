@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: c6b09ceb87db893479968bfece872c28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2224107358045318561
+    second: mokouwalking_0
+  - first:
+      213: 6356162624707036997
+    second: mokouwalking_1
+  - first:
+      213: 7573028610929323510
+    second: mokouwalking_2
+  - first:
+      213: -4732370322309249244
+    second: mokouwalking_3
+  - first:
+      213: 5441969372704812368
+    second: mokouwalking_4
+  - first:
+      213: 4877493353118129760
+    second: mokouwalking_5
+  - first:
+      213: -52251477400407828
+    second: mokouwalking_6
+  - first:
+      213: 2893222912206798924
+    second: mokouwalking_7
+  - first:
+      213: 967799316817741481
+    second: mokouwalking_8
+  - first:
+      213: 6064460846596428783
+    second: mokouwalking_9
+  - first:
+      213: -6783321517615561658
+    second: mokouwalking_10
+  - first:
+      213: -7508819431628282786
+    second: mokouwalking_11
+  - first:
+      213: -9060609527688584546
+    second: mokouwalking_12
+  - first:
+      213: 5059848206422821346
+    second: mokouwalking_13
+  - first:
+      213: -2838365626338469756
+    second: mokouwalking_14
+  - first:
+      213: -8385475777390232453
+    second: mokouwalking_15
+  - first:
+      213: 2854819404932246347
+    second: mokouwalking_16
+  - first:
+      213: -723759669688378441
+    second: mokouwalking_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mokouwalking_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 512
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52506544226221e0800000000000000
+      internalID: -2224107358045318561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 512
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54707441b30a53850800000000000000
+      internalID: 6356162624707036997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 512
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdef44e56dc81960800000000000000
+      internalID: 7573028610929323510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 512
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4270829d34e335eb0800000000000000
+      internalID: -4732370322309249244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 384
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d20aacf42c58b40800000000000000
+      internalID: 5441969372704812368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 384
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e5fe2dc5650b340800000000000000
+      internalID: 4877493353118129760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 385
+        width: 38
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce03f82ee8d564ff0800000000000000
+      internalID: -52251477400407828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_7
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 386
+        width: 38
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c408b12e8eac62820800000000000000
+      internalID: 2893222912206798924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 258
+        width: 38
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a689ccd9505e6d00800000000000000
+      internalID: 967799316817741481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_9
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 257
+        width: 38
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe315a3520b492450800000000000000
+      internalID: 6064460846596428783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_10
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 256
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644c241f40dccd1a0800000000000000
+      internalID: -6783321517615561658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 256
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54ee37a2805bc790800000000000000
+      internalID: -7508819431628282786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 128
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e922a95c3af324280800000000000000
+      internalID: -9060609527688584546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_13
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 128
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9ca31b221383640800000000000000
+      internalID: 5059848206422821346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_14
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 128
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4889a6b40891c98d0800000000000000
+      internalID: -2838365626338469756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_15
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 128
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c3308653ec0ab80800000000000000
+      internalID: -8385475777390232453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_16
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4be0e09f1b5e9720800000000000000
+      internalID: 2854819404932246347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mokouwalking_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 0
+        width: 38
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb58714a60b4f5f0800000000000000
+      internalID: -723759669688378441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mokouwalking_5: 4877493353118129760
+      mokouwalking_0: -2224107358045318561
+      mokouwalking_7: 2893222912206798924
+      mokouwalking_2: 7573028610929323510
+      mokouwalking_1: 6356162624707036997
+      mokouwalking_9: 6064460846596428783
+      mokouwalking_17: -723759669688378441
+      mokouwalking_10: -6783321517615561658
+      mokouwalking_8: 967799316817741481
+      mokouwalking_13: 5059848206422821346
+      mokouwalking_14: -2838365626338469756
+      mokouwalking_12: -9060609527688584546
+      mokouwalking_16: 2854819404932246347
+      mokouwalking_11: -7508819431628282786
+      mokouwalking_3: -4732370322309249244
+      mokouwalking_4: 5441969372704812368
+      mokouwalking_6: -52251477400407828
+      mokouwalking_15: -8385475777390232453
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

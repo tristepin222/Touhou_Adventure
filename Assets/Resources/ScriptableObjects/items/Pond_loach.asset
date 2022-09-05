@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d724b6d27802f4142a758ba7b48d5390, type: 3}
+  m_Name: Pond_loach
+  m_EditorClassIdentifier: 
+  itemType: 16
+  itemName: Pond_Loach
+  sprite: {fileID: 6631801368433841071, guid: 7c01acf2b665d66428b0a9ec5962fa85, type: 3}
+  category: 5
+  tier: 1
+  itemNumber: 12
+  weight: 60
+  crop: {fileID: 0}
+  price: 2
+  maxAmount: 16
+  Shopamount: 8

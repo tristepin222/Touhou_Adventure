@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8b08d46e6c7f84db40bca90172a201, type: 3}
+  m_Name: Reimu
+  m_EditorClassIdentifier: 
+  reactionsPortrait:
+  - {fileID: -1223365865617157243, guid: 4d256628ddfb98445b4272fef1cfe021, type: 3}
+  - {fileID: -7611959909261411043, guid: 4d256628ddfb98445b4272fef1cfe021, type: 3}
+  - {fileID: 7124845699734441143, guid: 4d256628ddfb98445b4272fef1cfe021, type: 3}
+  - {fileID: 6841952849870227944, guid: 4d256628ddfb98445b4272fef1cfe021, type: 3}
+  - {fileID: 8540916055259910008, guid: 4d256628ddfb98445b4272fef1cfe021, type: 3}
+  - {fileID: 2854558464598660133, guid: 4d256628ddfb98445b4272fef1cfe021, type: 3}
+  - {fileID: -755142614102353279, guid: 4d256628ddfb98445b4272fef1cfe021, type: 3}
+  - {fileID: 8284110309704769314, guid: 4d256628ddfb98445b4272fef1cfe021, type: 3}
+  reactionsSprite: []
+  strings:
+  - reimu0
+  - reimu1
+  - reimu2
+  - reimu3
+  - reimu4
+  Badstrings:
+  - reimu5
+  reactionsType: 0300000001000000000000000000000000000000
+  stringsType: 0200000002000000020000000200000002000000
+  isContinue: 0101010101
+  genericSeller: 0
