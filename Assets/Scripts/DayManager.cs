@@ -21,7 +21,12 @@ public class DayManager : MonoBehaviour
     }
     private void Start()
     {
-      TimeClockManager timeClockManager =  FindObjectOfType<TimeClockManager>();
+        StartCoroutine(LateStart(0.2f));
+    }
+    IEnumerator LateStart(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        TimeClockManager timeClockManager = FindObjectOfType<TimeClockManager>();
         timeClockManager.dayManager = this;
     }
     // Update is called once per frame

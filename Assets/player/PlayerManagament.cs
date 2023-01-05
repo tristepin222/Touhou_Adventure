@@ -96,7 +96,21 @@ public class PlayerManagament : MonoBehaviour
 
             hotKeySystem.OnChange += OnItemSelectChange;
 
-        
+        if (FindObjectOfType<onAwake>().SetAIPlayer)
+        {
+            GlobalControl.Instance.ui_hotbar.GetComponentInChildren<Canvas>().enabled = false;
+            GlobalControl.Instance.ui_life.GetComponent<Canvas>().enabled = false;
+            GlobalControl.Instance.ui_money.GetComponentInChildren<Canvas>().enabled = false;
+            GlobalControl.Instance.UI_Buttons.GetComponent<Canvas>().enabled = false;
+            GlobalControl.Instance.UI_Objective.GetComponent<Canvas>().enabled = false;
+            GlobalControl.Instance.UI_Exp.GetComponent<Canvas>().enabled = false;
+            GlobalControl.Instance.UI_Time.GetComponent<Canvas>().enabled = false;
+        }
+        GameObject gm = GameObject.Find("MainMenu");
+        if (gm != null)
+        {
+            this.transform.position = gm.transform.position;
+        }
     }
     public void setInventory()
     {
@@ -145,13 +159,7 @@ public class PlayerManagament : MonoBehaviour
             {
                 disabled = true;
                 ScreenCapture.CaptureScreenshot(Application.persistentDataPath + "screenshot.png");
-                GlobalControl.Instance.ui_hotbar.SetActive(false);
-                GlobalControl.Instance.ui_inventory.SetActive(false);
-                GlobalControl.Instance.ui_craftingsystem.gameObject.transform.GetChild(0).GetComponent<Canvas>().enabled = false;
-                GlobalControl.Instance.ui_map.GetComponent<Canvas>().enabled = false;
-                GlobalControl.Instance.UI_Buttons.GetComponent<Canvas>().enabled = false;
-                GlobalControl.Instance.ui_life.GetComponent<Canvas>().enabled = false;
-                GlobalControl.Instance.UI_Exp.GetComponent<Canvas>().enabled = false;
+                GlobalControl.Instance.HideUI();
                 SceneManager.LoadScene("MainMenu");
                 
             }
@@ -174,16 +182,16 @@ public class PlayerManagament : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.C))
             {
-                if (ui_craftingsystemg.GetComponent<Canvas>().enabled)
+                if (uiInventoryg.GetComponent<Canvas>().enabled)
                 {
                     disabled = false;
-                    ui_craftingsystemg.GetComponent<Canvas>().enabled = false;
+                    uiInventoryg.GetComponent<Canvas>().enabled = false;
 
                 }
                 else
                 {
                     disabled = true;
-                    ui_craftingsystemg.GetComponent<Canvas>().enabled = true;
+                    uiInventoryg.GetComponent<Canvas>().enabled = true;
 
                 }
             }
@@ -325,12 +333,24 @@ public class PlayerManagament : MonoBehaviour
             {
 
 
-            loader gameobject = FindObjectOfType<loader>();
+             GameObject gameobject = GameObject.Find(GlobalControl.Instance.lastScene);
+            if(gameobject == null)
+            {
+                loader loader = FindObjectOfType<loader>();
+                if (loader != null)
+                {
+                    gameobject = loader.gameObject;
+                }
+            }
+            if (gameobject == null)
+            {
+                gameobject = GameObject.Find("SpawPoint");
+            }
             if (gameobject != null) {
-
+                
                 player.transform.position = gameobject.transform.position;
 
-                    }
+            }
             else
             {
 

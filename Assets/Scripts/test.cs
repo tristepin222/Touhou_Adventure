@@ -1,25 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class test : MonoBehaviour
+public class test : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-  [SerializeField]  PlayerManagament player;
-    // Start is called before the first frame update
-    void Start()
+    public void OnPointerEnter(PointerEventData eventData)
     {
-        
+        Debug.Log("SHOW");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnPointerExit(PointerEventData eventData)
     {
-       Inventory inventory = player.GetInventory();
-        Item[] items = inventory.getItemList();
-       
-        foreach(Item item in items)
-        {
-            Debug.Log(item.name);
-        }
+        Debug.Log("DEL");
     }
 }

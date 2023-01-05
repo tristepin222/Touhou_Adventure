@@ -27,10 +27,28 @@ public class dataStatic : MonoBehaviour
     public bool[] encounters;
     public int currentday;
     public float savedDay;
+    public bool[] museumItems;
+    public int[,] plows;
+    public grow[,] plants;
+    public int[,] plantsInt;
+    public int[,] plantsStages;
+    public string[,] plantNames;
     private void Awake()
     {
+        if(plants == null)
+        {
+            plants = new grow[50, 50];
+            plantsInt = new int[50, 50];
+            plantNames = new string[50, 50];
+            plantsStages = new int[50, 50];
+        }
+        if(plows == null)
+        {
+            plows = new int[50, 50];
+        }
         DialogueInformations = new DialogueInformation[100];
         encounters = new bool[100];
+        museumItems = new bool[100];
         nextXp = 100;
         money = 0;
         if (Instance == null)

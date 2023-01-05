@@ -13,20 +13,25 @@ public class Encounter : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        if (!GlobalControl.Instance.encounters[index])
-        {
-            encounterToSpawn.transform.position = startingPoint.position;
-            encounterToSpawn.GetComponent<NPCMovement>().startMovement();
-            if (save)
+            if (!GlobalControl.Instance.encounters[index])
             {
-                GlobalControl.Instance.encounters[index] = true;
+            if (GlobalControl.Instance.canTrigger)
+            {
+
+                GlobalControl.Instance.canTrigger = false;
+                encounterToSpawn.transform.position = startingPoint.position;
+                encounterToSpawn.GetComponent<NPCMovement>().startMovement();
+                if (save)
+                {
+                    GlobalControl.Instance.encounters[index] = true;
+                }
             }
-        }
-        else
-        {
-            obstacle.SetActive(false);
-        }
+            }
+            else
+            {
+                obstacle.SetActive(false);
+            }
+        
     }
 
     

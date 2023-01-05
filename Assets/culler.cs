@@ -28,7 +28,7 @@ public class culler : MonoBehaviour
             renderers = FindObjectsOfType<SpriteRenderer>();
             foreach (SpriteRenderer render in renderers)
             {
-                if (render.sortingLayerName == "Default" && (render.tag != "body" && render.tag != "Player"))
+                if (render.sortingLayerName == "Default" && (render.tag != "body" && render.tag != "Player" && render.tag != "dontCull"))
                 {
                     nu = (int)(render.transform.position.y * -100);
                     render.sortingOrder += nu;
@@ -44,7 +44,7 @@ public class culler : MonoBehaviour
             renderers = FindObjectsOfType<SpriteRenderer>();
             foreach (SpriteRenderer render in renderers)
             {
-                if (render.sortingLayerName == "Default" && (render.tag != "body" && render.tag != "Player"))
+                if (render.sortingLayerName == "Default" && (render.tag != "body" && render.tag != "Player" && render.tag != "dontCull"))
                 {
                     nu = (int)(render.transform.position.y * -100);
                     render.sortingOrder += nu;
@@ -84,6 +84,10 @@ public class culler : MonoBehaviour
                                 nu = (int)(this.transform.position.y * -100);
                                 nu += sortingorderNumber[1];
                                 break;
+                            case "Eyes (1)":
+                                nu = (int)(this.transform.position.y * -100);
+                                nu += sortingorderNumber[11];
+                                break;
                             case "Shirt":
                                 nu = (int)(this.transform.position.y * -100);
                                 nu += sortingorderNumber[2];
@@ -119,6 +123,10 @@ public class culler : MonoBehaviour
                             case "Player":
                                 nu = (int)(this.transform.position.y * -100);
                                 nu += sortingorderNumber[10];
+                                break;
+                            case "bushes33":
+                                nu = (int)(this.transform.position.y * -100);
+                                nu += sortingorderNumber[12];
                                 break;
                         }
 

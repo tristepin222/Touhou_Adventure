@@ -33,7 +33,7 @@ public class CommandManager : MonoBehaviour
             case "SetHour":
                 textMeshProUGUI.text = "";
                  Value = value.Substring(FirstWhiteSpace + 1, 2);
-                int intValue = int.Parse(value);
+                int intValue = int.Parse(Value);
                 if (intValue < 0 || intValue > 24)
                 {
                     textMeshProUGUI.text += "Please use values between : 0 and 24" + "\n";

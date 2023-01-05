@@ -27,6 +27,10 @@ public class loadingScreen : MonoBehaviour
     }
     public void startLoading()
     {
+        if (GlobalControl.Instance != null)
+        {
+            GlobalControl.Instance.isloading = true;
+        }
         animator.enabled = true;
     }
     

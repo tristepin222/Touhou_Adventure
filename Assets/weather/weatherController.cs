@@ -8,26 +8,24 @@ public class weatherController : MonoBehaviour
     public GameObject sunny;
     public GameObject rainy;
     public GameObject stormy;
+    public GameObject cloudy;
     public GameObject foggy;
     public GameObject windy;
     public weatherController[] other;
     public bool isSame = false;
     public int rand;
     public bool over_ride = false;
+    public AudioClip audio;
     void Start()
     {
+  
+       
+   
         other = FindObjectsOfType<weatherController>();
-        if (over_ride)
-        {
-            if (!isSame)
-            {
-                rand = Random.Range(1, 3);
-            }
-            else
-            {
-                rand = other[1].rand;
-            }
-        }
+       
+                rand = Random.Range(1, 4);
+           
+    
         if (options.Instance.sAmount > 0.4f)
         {
             rainy.GetComponent<AudioSource>().volume = options.Instance.sAmount - 0.4f;
@@ -37,6 +35,14 @@ public class weatherController : MonoBehaviour
             sunny.SetActive(false);
         }
         if (rainy != null)
+        {
+            rainy.SetActive(false);
+        }
+        if (stormy != null)
+        {
+            rainy.SetActive(false);
+        }
+        if (cloudy != null)
         {
             rainy.SetActive(false);
         }
@@ -54,6 +60,18 @@ public class weatherController : MonoBehaviour
                     rainy.SetActive(true);
                 }
                 break;
+                case 3:
+                if(stormy != null)
+                {
+                    stormy.SetActive(true);
+                }
+                break;
+            case 4:
+                if (cloudy != null)
+                {
+                    cloudy.SetActive(true);
+                }
+                break;
             default:
                 sunny.SetActive(true);
                 break;
@@ -62,11 +80,7 @@ public class weatherController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 
      public GameObject  getWeather()
     {
@@ -82,6 +96,18 @@ public class weatherController : MonoBehaviour
                 if (rainy != null)
                 {
                      return rainy;
+                }
+                break;
+            case 3:
+                if (stormy != null)
+                {
+                    stormy.SetActive(true);
+                }
+                break;
+            case 4:
+                if (cloudy != null)
+                {
+                    cloudy.SetActive(true);
                 }
                 break;
             default:

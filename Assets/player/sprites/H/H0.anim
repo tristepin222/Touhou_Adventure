@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: H0
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -20,7 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -3382833790839120840, guid: 47bd33793e700c14cb07a938b04c5db7, type: 3}
+      value: {fileID: 1005524383, guid: 87ebedcb016ea4144922b9bf0310a68c, type: 3}
+    - time: 4
+      value: {fileID: 1005524383, guid: 87ebedcb016ea4144922b9bf0310a68c, type: 3}
     attribute: m_Sprite
     path: Hair
     classID: 212
@@ -39,14 +41,16 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     pptrCurveMapping:
-    - {fileID: -3382833790839120840, guid: 47bd33793e700c14cb07a938b04c5db7, type: 3}
+    - {fileID: 1005524383, guid: 87ebedcb016ea4144922b9bf0310a68c, type: 3}
+    - {fileID: 1005524383, guid: 87ebedcb016ea4144922b9bf0310a68c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 4.016667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

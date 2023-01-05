@@ -28,6 +28,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.3784606, y: 1.7884289, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6590196441255528632}
   m_RootOrder: 3
@@ -103,6 +104,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.95138425, y: 0.89421445, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6590196441255528632}
   m_RootOrder: 2
@@ -184,6 +186,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6590196441262787157}
   m_Father: {fileID: 6590196441255528632}
@@ -300,6 +303,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66ce4bf0509b9544f98e9d792c3f8e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  music: 0
+  once: 0
+  sound: 0
+  option: {fileID: 0}
+  option2: {fileID: 0}
+  option2Text: {fileID: 0}
+  saveText: {fileID: 0}
+  option2Image: {fileID: 0}
+  musicG: {fileID: 0}
+  soundG: {fileID: 0}
+  mAmount: 0
+  sAmount: 0
+  canva2: {fileID: 0}
+  ch: {fileID: 0}
+  ch2: {fileID: 0}
+  loadingScreen: {fileID: 0}
 --- !u!1 &6590196441255528633
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,11 +347,12 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.0511, y: 1.1183, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 7267363700777156929}
   - {fileID: 6590196442259568298}
   - {fileID: 6590196440570723205}
   - {fileID: 6590196440442000207}
-  - {fileID: 7267363700777156929}
   m_Father: {fileID: 6590196442358978491}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -407,6 +427,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6590196440570723205}
   m_RootOrder: 0
@@ -488,6 +509,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6590196442381550162}
   m_Father: {fileID: 6590196441255528632}
@@ -604,6 +626,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66ce4bf0509b9544f98e9d792c3f8e2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  music: 0
+  once: 0
+  sound: 0
+  option: {fileID: 0}
+  option2: {fileID: 0}
+  option2Text: {fileID: 0}
+  saveText: {fileID: 0}
+  option2Image: {fileID: 0}
+  musicG: {fileID: 0}
+  soundG: {fileID: 0}
+  mAmount: 0
+  sAmount: 0
+  canva2: {fileID: 0}
+  ch: {fileID: 0}
+  ch2: {fileID: 0}
+  loadingScreen: {fileID: 0}
 --- !u!1 &6590196442358978487
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,6 +671,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6590196441255528632}
   m_Father: {fileID: 0}
@@ -661,6 +700,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 60
   m_TargetDisplay: 0
@@ -732,6 +772,7 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6590196442259568298}
   m_RootOrder: 0

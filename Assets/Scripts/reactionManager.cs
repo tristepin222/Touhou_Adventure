@@ -47,15 +47,21 @@ public class reactionManager : MonoBehaviour
     public bool save = true;
     public GameObject buttonShop;
     public bool isShop;
+    public bool giveSuccess;
+    public string success;
     private bool canLoad = false;
     private bool disableplayer = false;
     private bool canShow = false;
     private int moneyToWait;
-    
+    private SuccessManager successManager;
     // Start is called before the first frame update
     void Start()
     {
-
+        successManager = FindObjectOfType<SuccessManager>();
+        if(successManager == null)
+        {
+            giveSuccess = false;
+        }
         
     }
     private void init()
@@ -661,9 +667,11 @@ public class reactionManager : MonoBehaviour
         if (!disableplayer)
         {
 
-
-            GlobalControl.Instance.player.GetComponent<PlayerManagament>().disabled = true;
-            disableplayer = false;
+            if (GlobalControl.Instance != null)
+            {
+                GlobalControl.Instance.player.GetComponent<PlayerManagament>().disabled = true;
+                disableplayer = false;
+            }
         }
         if (!canClick)
         {
@@ -770,17 +778,26 @@ public class reactionManager : MonoBehaviour
         {
             image.sprite = dialogue.portrait;
         }
-        switch (dialogue.action[0].action)
+        foreach (actions actions in dialogue.action)
         {
-            case actions.actionType.TPToScene:
-                if (!SceneManager.GetActiveScene().name.Contains("Fight"))
-                {
-                    GlobalControl.Instance.previousPos = GlobalControl.Instance.player.transform.position;
-                }
-                loadingScreen.sceneString = dialogue.action[0].scene;
-                canClick = true;
-                break;
+            switch (actions.action)
+            {
+                case actions.actionType.TPToScene:
+                    if (!SceneManager.GetActiveScene().name.Contains("Fight"))
+                    {
+                        GlobalControl.Instance.previousPos = GlobalControl.Instance.player.transform.position;
+                    }
+                    loadingScreen.sceneString = dialogue.action[0].scene;
+                    canClick = true;
+                    break;
+                case actions.actionType.GiveSuccess:
+                    if (successManager != null)
+                    {
+
+                        successManager.SetAchievement(actions.achievement);
+                    }
+                    break;
+            }
         }
-    
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
 public class TimeClockManager : MonoBehaviour
 {
     public Transform timeCircle;
@@ -64,6 +65,7 @@ public class TimeClockManager : MonoBehaviour
         
         timeCircle.eulerAngles =  new Vector3(0,0, -dayNormalised * rotationDegreesPerday );
         hoursi = (int)Mathf.Floor(dayNormalised * hoursPerDay);
+     
         minutesi = (int)Mathf.Floor(((dayNormalised * hoursPerDay) % 1) * minutesPerHour);
         if (GlobalControl.Instance != null)
         {
@@ -72,9 +74,20 @@ public class TimeClockManager : MonoBehaviour
         }
         if (demo)
         {
-            if(hoursi >= 12)
+            if(hoursi >= 18)
             {
-                SceneManager.LoadScene("MainMenu");
+                GlobalControl.Instance.ui_hotbar.GetComponentInChildren<Canvas>().enabled = false;
+                GlobalControl.Instance.ui_life.GetComponent<Canvas>().enabled = false;
+                GlobalControl.Instance.ui_money.GetComponentInChildren<Canvas>().enabled = false;
+                GlobalControl.Instance.UI_Buttons.GetComponent<Canvas>().enabled = false;
+                GlobalControl.Instance.UI_Objective.GetComponent<Canvas>().enabled = false;
+                GlobalControl.Instance.UI_Exp.GetComponent<Canvas>().enabled = false;
+                GlobalControl.Instance.UI_Time.GetComponent<Canvas>().enabled = false;
+                Scene currentScene = SceneManager.GetActiveScene();
+                if (currentScene.name != "MainMenu")
+                {
+                    SceneManager.LoadScene("MainMenu");
+                }
             }
         }
         string hours = Mathf.Floor(dayNormalised * hoursPerDay).ToString("00");

@@ -90,5 +90,19 @@ public class loader : MonoBehaviour
         }
         
     }
-
+    private void Update()
+    {
+       
+        if(GlobalControl.Instance != null) {
+            if (!GlobalControl.Instance.canTP)
+            {
+                GameObject b = GameObject.Find("MainMenu");
+                if (b != null)
+                {
+                    GlobalControl.Instance.player.transform.position = b.transform.position;
+                }
+                GlobalControl.Instance.canTP = true;
+            }
+        }
+    }
 }

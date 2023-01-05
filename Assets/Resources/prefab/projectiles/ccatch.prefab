@@ -99,6 +99,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 443977087941296254, guid: f1827bc0a1b607744a2526b40d363704, type: 3}
@@ -123,11 +124,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3843418291383801256, guid: f1827bc0a1b607744a2526b40d363704, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.453358
+      value: 5.6006513
       objectReference: {fileID: 0}
     - target: {fileID: 3843418291383801256, guid: f1827bc0a1b607744a2526b40d363704, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.272492
+      value: 3.815833
       objectReference: {fileID: 0}
     - target: {fileID: 3843418291383801256, guid: f1827bc0a1b607744a2526b40d363704, type: 3}
       propertyPath: m_LocalPosition.z
@@ -202,6 +203,13 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3843418291383801256, guid: f1827bc0a1b607744a2526b40d363704, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3203738041950884953}
+    - targetCorrespondingSourceObject: {fileID: 3843418291383801256, guid: f1827bc0a1b607744a2526b40d363704, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 570180025995502258}
   m_SourcePrefab: {fileID: 100100000, guid: f1827bc0a1b607744a2526b40d363704, type: 3}
 --- !u!4 &3567854089312816433 stripped
 Transform:
@@ -215,6 +223,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!120 &258210714925415494
 LineRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -350,10 +359,13 @@ LineRenderer:
     numCapVertices: 0
     alignment: 0
     textureMode: 0
+    textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
+  m_MaskInteraction: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+  m_ApplyActiveColorSpace: 0
 --- !u!114 &-8739832582039995679
 MonoBehaviour:
   m_ObjectHideFlags: 0

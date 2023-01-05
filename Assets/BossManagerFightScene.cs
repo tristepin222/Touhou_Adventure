@@ -31,6 +31,8 @@ public class BossManagerFightScene : MonoBehaviour
     public GameObject PS;
     public bool disabled;
     public int lives;
+    public bool GiveSucess;
+    public string success;
     private Vector3 target;
     private Vector3 difference;
     private int cooldown = 0;
@@ -49,9 +51,16 @@ public class BossManagerFightScene : MonoBehaviour
     [SerializeField] private float speed = 1;
     [SerializeField] private float spreecooldown = 0.1f;
     [SerializeField] private Color color;
+    SuccessManager successManager;
     // Start is called before the first frame update
     void Start()
     {
+        successManager = FindObjectOfType<SuccessManager>();
+        if( successManager == null)
+        {
+            GiveSucess = false;
+        }
+
         sr = this.GetComponent<SpriteRenderer>();
         
         currentScene = SceneManager.GetActiveScene().name;
@@ -111,6 +120,7 @@ public class BossManagerFightScene : MonoBehaviour
             onStage = false;
             if (stage >= lives)
             {
+                successManager.SetAchievement(success);
                 OnDeath.Invoke(true);
                 Destroy(this.gameObject);
                 Destroy(b, 5f);

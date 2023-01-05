@@ -332,13 +332,17 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7afb1cdf1ac8c234ca01572eba668389, type: 2}
+    - target: {fileID: 741367408454065484, guid: 5864d9730a81da14692e27f3a969dc71, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.023
+      objectReference: {fileID: 0}
     - target: {fileID: 7111570838977608114, guid: 5864d9730a81da14692e27f3a969dc71, type: 3}
       propertyPath: m_Name
-      value: NPC_Template (5)
+      value: NPC_Template (5) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7197079251237377819, guid: 5864d9730a81da14692e27f3a969dc71, type: 3}
       propertyPath: m_RootOrder
-      value: 242
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7197079251237377819, guid: 5864d9730a81da14692e27f3a969dc71, type: 3}
       propertyPath: m_LocalPosition.x
@@ -391,7 +395,7 @@ PrefabInstance:
     - target: {fileID: 7949633705067622643, guid: 5864d9730a81da14692e27f3a969dc71, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1329143878289055820, guid: 260c510cc6b3e1741a8edb367e40905b, type: 3}
+      objectReference: {fileID: -372620975, guid: e84d9ebbca075a84f97823b16516d8a3, type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5864d9730a81da14692e27f3a969dc71, type: 3}

@@ -52,17 +52,24 @@ public class GlobalControl : MonoBehaviour
     public int hour;
     public int minute;
     public int currentDay;
+    public bool[] museumItem;
+    public bool isloading;
+    public bool canTP;
+    public bool canTrigger;
+    public int steps;
+    public int fights;
+    public bool cinematic;
     public void Set()
     {
         
         playerID = NetworkManager.Singleton.LocalClientId;
         player = NetworkManager.Singleton.ConnectedClients[playerID].PlayerObject.gameObject;
+        time = 0.4f;
 
-      
-       
 
-            
-                if (Instance == null)
+
+
+        if (Instance == null)
                 {
                     inventory = dataStatic.Instance.inventory;
                 }
@@ -106,6 +113,7 @@ public class GlobalControl : MonoBehaviour
             dontdestroy = true;
             once = new bool[100];
             encounters = new bool[100];
+            museumItem = new bool[100];
             DialogueInformations = new DialogueInformation[100];
        
             DialogueInformations = dataStatic.Instance.DialogueInformations;
@@ -116,18 +124,17 @@ public class GlobalControl : MonoBehaviour
             Canvas c;
 
 
+         
             for(int i = 0; dataStatic.Instance.objsaved.GetLength(0) > i; i++)
                 {
 
                 obtosv.Add(dataStatic.Instance.objsaved[i]);
             }
-            if (dataStatic.Instance.tutcomp)
-            {
+         
                 UI_Tutorial.GetComponent<Canvas>().enabled = false;
-                
-            }
+          
 
-            dataStatic.Instance.tutcomp = true;
+           
             UI_Arrow.GetComponent<Canvas>().worldCamera = vc.GetComponent<Camera>();
             UI_Arrow.GetComponent<Canvas>().sortingLayerName = "UI";
             c = ui_interact.GetComponent<Canvas>();
@@ -151,7 +158,7 @@ public class GlobalControl : MonoBehaviour
 
 
 
-           
+      
 
            
 
@@ -229,11 +236,42 @@ public class GlobalControl : MonoBehaviour
             moneyt.text = dataStatic.Instance.money.ToString();
             objindex5 = dataStatic.Instance.objindex5;
             currentobj = dataStatic.Instance.currentobj;
+            if (dataStatic.Instance.museumItems != null)
+            {
+                museumItem = dataStatic.Instance.museumItems;
+            }
             if (dataStatic.Instance.encounters != null)
             {
                 encounters = dataStatic.Instance.encounters;
             }
         }
+        FindObjectOfType<SuccessManager>().init();
+        FindObjectOfType<onAwake>().initAwake();
+        NPCMovement[] nPCMovements = FindObjectsOfType<NPCMovement>();
+        UI_inventoryItemSlot[] uI_InventoryItemSlots = FindObjectsOfType<UI_inventoryItemSlot>();
+        foreach (NPCMovement nPCMovement in nPCMovements)
+        {
+            nPCMovement.init();
+        }
+        foreach (UI_inventoryItemSlot uI_InventoryItemSlot in uI_InventoryItemSlots)
+        {
+            uI_InventoryItemSlot.init();
+        }
+        if (cinematic)
+        {
+            HideUI();
+        }
+    }
+
+    public void HideUI()
+    {
+        GlobalControl.Instance.ui_hotbar.GetComponentInChildren<Canvas>().enabled = false;
+        GlobalControl.Instance.ui_life.GetComponent<Canvas>().enabled = false;
+        GlobalControl.Instance.ui_money.GetComponentInChildren<Canvas>().enabled = false;
+        GlobalControl.Instance.UI_Buttons.GetComponent<Canvas>().enabled = false;
+        GlobalControl.Instance.UI_Objective.GetComponent<Canvas>().enabled = false;
+        GlobalControl.Instance.UI_Exp.GetComponent<Canvas>().enabled = false;
+        GlobalControl.Instance.UI_Time.GetComponent<Canvas>().enabled = false;
     }
     }
 

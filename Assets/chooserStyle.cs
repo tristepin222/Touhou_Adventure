@@ -11,6 +11,7 @@ public class chooserStyle : MonoBehaviour
     [SerializeField] public Sprite[] spritesHair;
     [SerializeField] public Sprite[] spritesMouth;
     [SerializeField] public Sprite[] spritesEyesBrows;
+    [SerializeField] public Sprite[] spritesTops;
     [SerializeField] public Sprite[,] spritesMaster = new Sprite[8,20];
     public Text Text4;
     public Text Text3;
@@ -32,18 +33,24 @@ public class chooserStyle : MonoBehaviour
             i++;
         }
         i = 0;
-        foreach (Sprite sprite in spritesMouth)
-        {
-            spritesMaster[5, i] = sprite;
-            i++;
-        }
+        //foreach (Sprite sprite in spritesMouth)
+        //{
+        //    spritesMaster[5, i] = sprite;
+        //    i++;
+        //}
         i = 0;
         foreach (Sprite sprite in spritesEyesBrows)
         {
             spritesMaster[4, i] = sprite;
             i++;
         }
-
+        i = 0;
+        foreach (Sprite sprite in spritesTops)
+        {
+            spritesMaster[2, i] = sprite;
+            i++;
+        }
+        dataStatic.Instance.Indexes[ch.index] = index;
     }
    public void PreStart()
     {

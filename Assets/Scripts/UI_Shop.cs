@@ -25,6 +25,8 @@ public class UI_Shop : MonoBehaviour
     public loadingScreen loadingScreen;
     public List<Dialogue> afterPurchase = new List<Dialogue>();
     public reactionManager dialogue;
+    public bool giveSuccess;
+    public string success;
     RectTransform itemSlotRectTransform;
     string localizedText;
     int amount;
@@ -35,6 +37,7 @@ public class UI_Shop : MonoBehaviour
     [SerializeField] Button Sellbutton;
     private int currentSlot;
     private int x = 0;
+    private SuccessManager SuccessManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,9 +52,25 @@ public class UI_Shop : MonoBehaviour
         }
         
         shopSystem = new ShopSystem();
-        
+        int i = 0;
+        foreach(GameObject slot in slotsP)
+        {
+            slot.GetComponent<UI_inventoryItemSlot>().itemi = i;
+            i++;
+        }
+         i = 0;
+        foreach (GameObject slot in slots)
+        {
+            slot.GetComponent<UI_inventoryItemSlot>().itemi = i;
+            i++;
+        }
         Inventory_OnItemListChanged();
         GlobalControl.Instance.inventory.OnItemListChanged += Inventory_OnitemListChanged_player;
+        SuccessManager = FindObjectOfType<SuccessManager>();
+        if (SuccessManager == null)
+        {
+            giveSuccess = false;
+        }
     }
 
     
@@ -323,8 +342,9 @@ public class UI_Shop : MonoBehaviour
             }
         }
         GlobalControl.Instance.moneyt.text = GlobalControl.Instance.money.ToString();
-        if (afterPurchase[0] != null)
+        if (afterPurchase != null)
         {
+            GlobalControl.Instance.canTrigger = true;
             dialogue.canClick = true;
             this.gameObject.SetActive(false);
             dialogue.gameObject.SetActive(true);

@@ -56,13 +56,13 @@ public class UI_Button : MonoBehaviour
                 }
                 break;
             case 2:
-                if (UICraft.transform.GetChild(0).GetComponent<Canvas>().enabled)
+                if (UIInv.transform.GetComponent<Canvas>().enabled)
                 {
-                    UICraft.transform.GetChild(0).GetComponent<Canvas>().enabled = false;
+                    UIInv.transform.GetComponent<Canvas>().enabled = false;
                 }
                 else
                 {
-                    UICraft.transform.GetChild(0).GetComponent<Canvas>().enabled = true;
+                    UIInv.transform.GetComponent<Canvas>().enabled = true;
                 }
                 break;
             case 1:

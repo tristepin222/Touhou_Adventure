@@ -111,7 +111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.934, y: -15.502497}
+  m_AnchoredPosition: {x: 31.468, y: -21.6}
   m_SizeDelta: {x: 95.1358, y: 94.342}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6727824394794217740
@@ -188,7 +188,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 13.8087, y: -4.0842505}
+  m_AnchoredPosition: {x: 11.4, y: -1.7}
   m_SizeDelta: {x: 47.3183, y: 24.335001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8207817086027096535
@@ -311,8 +311,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 30.182, y: -31.5}
-  m_SizeDelta: {x: 14.5233, y: 15.3569}
+  m_AnchoredPosition: {x: 3.7242, y: -43.9}
+  m_SizeDelta: {x: 25.1716, y: 15.3569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8207817087156076106
 CanvasRenderer:
@@ -386,7 +386,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8207817087240926086}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -530,8 +530,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.900001, y: -16.00001}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 23.885086, y: -19.943117}
+  m_SizeDelta: {x: 79.97, y: 67.8862}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &740446626280652905
 CanvasRenderer:
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0d8936d7f43451c4190ff4a00bd287d2, type: 3}
+  m_Sprite: {fileID: -1271589683, guid: 5a729f7081b15224f88ca6c236853e23, type: 3}
   m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -570,4 +570,4 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2
+  m_PixelsPerUnitMultiplier: 0.25

@@ -27,28 +27,31 @@ public class InitiateFight : MonoBehaviour
 
     public IEnumerator CalculateChance()
     {
-        if (!onCoolDown)
+        if (!GlobalControl.Instance.isloading)
         {
-            float random = Random.Range(0f, 1f);
-
-            if (random >= chanceMinOfFight && random <= chanceMaxOfFight)
+            if (!onCoolDown)
             {
-                objectToSpawn = GameObject.Find("Speedlines");
-                objectToSpawn.GetComponent<Canvas>().worldCamera = Camera.main;
-                fade = objectToSpawn.GetComponent<fade>();
-                fade.scene = scene;
-                fade.shouldReveal = true;
-                GlobalControl.Instance.previousPos = GlobalControl.Instance.player.transform.position;
+                float random = Random.Range(0f, 1f);
+
+                if (random >= chanceMinOfFight && random <= chanceMaxOfFight)
+                {
+                    GlobalControl.Instance.fights++;
+                    objectToSpawn = GameObject.Find("Speedlines");
+                    objectToSpawn.GetComponent<Canvas>().worldCamera = Camera.main;
+                    fade = objectToSpawn.GetComponent<fade>();
+                    fade.scene = scene;
+                    fade.shouldReveal = true;
+                    GlobalControl.Instance.previousPos = GlobalControl.Instance.player.transform.position;
+
+                }
+                chanceMinOfFight = chanceMinOfFight - 0.05f;
+                chanceMaxOfFight = chanceMaxOfFight + 0.05f;
+                yield return new WaitForSeconds(1);
+
+                StartCoroutine(CoolDown(2.5f));
 
             }
-            chanceMinOfFight = chanceMinOfFight - 0.05f;
-            chanceMaxOfFight = chanceMaxOfFight + 0.05f;
-            yield return new WaitForSeconds(1);
-      
-            StartCoroutine(CoolDown(2.5f));
-            
         }
-
         GlobalControl.Instance.player.GetComponent<PlayerMovement>().fightCalculated = false;
     }
 }

@@ -9,7 +9,11 @@ public class simpleInteract : MonoBehaviour
     public bool inZone = false;
     public bool instantiate = false;
     public GameObject Interact;
+    public bool giveSucces;
+    public string success;
     Canvas interactC;
+    SuccessManager successManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +22,11 @@ public class simpleInteract : MonoBehaviour
             toshow = Instantiate(toshow);
         }
         toshow.SetActive(false);
+        successManager = FindObjectOfType<SuccessManager>();
+        if(successManager == null)
+        {
+            giveSucces = false;
+        }
     }
 
     // Update is called once per frame
@@ -42,6 +51,10 @@ public class simpleInteract : MonoBehaviour
                 else
                 {
                     toshow.SetActive(true);
+                    if (giveSucces)
+                    {
+                        successManager.SetAchievement(success);
+                    }
                     
                 }
 

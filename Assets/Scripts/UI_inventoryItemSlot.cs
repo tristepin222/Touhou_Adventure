@@ -1,10 +1,13 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using Unity.Netcode;
-public class UI_inventoryItemSlot : MonoBehaviour, IDragHandler,IDropHandler, IEndDragHandler,IBeginDragHandler,IPointerClickHandler
+using TMPro;
+
+public class UI_inventoryItemSlot : MonoBehaviour, IDragHandler,IDropHandler, IEndDragHandler,IBeginDragHandler,IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public CanvasGroup canva1;
     public Canvas canva;
@@ -18,6 +21,7 @@ public class UI_inventoryItemSlot : MonoBehaviour, IDragHandler,IDropHandler, IE
     int index = 0;
     public UI_craftingSystem UI_craftingSystem;
     public UI_Shop UI_Shop;
+    public UI_Museum UI_Museum;
     public RectTransform itemBomb;
     public ItemScriptableObject itemso;
     public bool onDropDisabled = false;
@@ -25,9 +29,24 @@ public class UI_inventoryItemSlot : MonoBehaviour, IDragHandler,IDropHandler, IE
     public bool selfInv = false;
     public bool bombcreator = false;
     public RectTransform parent;
+    public GameObject SmallPreview;
+    public static Action<string, Vector2> OnMouseHover;
+    public static Action onMouseLooseFocus;
+    public GameObject model;
     private RectTransform b;
-    
-    private void Start()
+    private GameObject SP;
+
+
+
+    public void Start()
+    {
+        if(GlobalControl.Instance != null)
+        {
+            init();
+        }
+    }
+
+    public void init()
     {
         inventory = GlobalControl.Instance.player.GetComponent<PlayerManagament>().inventory;
         canva1 = this.gameObject.GetComponent<CanvasGroup>();
@@ -38,6 +57,9 @@ public class UI_inventoryItemSlot : MonoBehaviour, IDragHandler,IDropHandler, IE
             inventory = UI_craftingSystem.inventory;
 
         }
+      
+        OnMouseHover += ShowToolTip;
+        onMouseLooseFocus += DestroyTip;
     }
     // Update is called once per frame
 
@@ -173,11 +195,52 @@ public class UI_inventoryItemSlot : MonoBehaviour, IDragHandler,IDropHandler, IE
     {
         if (shop && !bombcreator)
         {
-           
-        
-        
-            UI_Shop.updateVisual(itemi, selfInv);
 
+
+            if (UI_Shop != null)
+            {
+                UI_Shop.updateVisual(itemi, selfInv);
+            }
+            else
+            {
+                UI_Museum.updateVisual(itemi);
+            }
         }
+    }
+    private void ShowToolTip(string tip, Vector2 MousePos)
+    {
+        model.SetActive(true);
+        model.GetComponentInChildren<TextMeshProUGUI>().text = "Item : "  + this.gameObject.GetComponentsInChildren<Text>()[2].text + "\n";
+        model.GetComponentInChildren<TextMeshProUGUI>().text += "Amount : " + this.gameObject.GetComponentsInChildren<Text>()[1].text;
+        model.transform.position = new Vector2(MousePos.x + model.GetComponent<RectTransform>().sizeDelta.x * 0.5f, MousePos.y + model.GetComponent<RectTransform>().sizeDelta.y * 0.7f);
+    }
+    private void DestroyTip()
+    {
+        model.SetActive(false);
+    }
+
+
+    //Gets all event system raycast results of current mouse or touch position.
+    static List<RaycastResult> GetEventSystemRaycastResults()
+    {
+        PointerEventData eventData = new PointerEventData(EventSystem.current);
+        eventData.position = Input.mousePosition;
+        List<RaycastResult> raysastResults = new List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, raysastResults);
+        return raysastResults;
+    }
+
+   
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+       
+        DestroyTip();
+    }
+
+    void IPointerEnterHandler.OnPointerEnter(PointerEventData eventData)
+    {
+        
+        ShowToolTip("", Input.mousePosition);
     }
 }

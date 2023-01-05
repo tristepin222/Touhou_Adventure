@@ -6,11 +6,12 @@ public class slide : MonoBehaviour
 {
    public RectTransform rect1;
    public RectTransform rect2;
-    public int rows;
+    public float rows;
     float refference;
     void Start()
     {
          refference = rect1.anchoredPosition.y;
+         refference += 1;
     }
 
     // Update is called once per frame

@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 833.6225, y: 305.78354, z: -123.39988}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -43,12 +44,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ff6a100ecb881a4687a7e8bfb547f24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sunny: {fileID: 0}
-  rainy: {fileID: 0}
-  stormy: {fileID: 0}
+  sunny: {fileID: 5924938591053734226, guid: 176fa04a6333afd47b59a8eb09f0a429, type: 3}
+  rainy: {fileID: 9070421743524009252, guid: b14b109d0ad8154488b609ac90deecbc, type: 3}
+  stormy: {fileID: 4558221810873614430, guid: 0b8bdd6bef29d514d9f3c82950c3ee00, type: 3}
+  cloudy: {fileID: 2325123049060216357, guid: fa0454421ee5d9e42984aa5acca0e00a, type: 3}
   foggy: {fileID: 0}
   windy: {fileID: 0}
   other: []
   isSame: 0
   rand: 0
   over_ride: 1
+  audio: {fileID: 0}

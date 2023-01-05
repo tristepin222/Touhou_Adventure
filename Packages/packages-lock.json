@@ -8,6 +8,13 @@
         "com.unity.render-pipelines.universal": "10.4.0"
       }
     },
+    "com.rlabrecque.steamworks.net": {
+      "version": "https://github.com/rlabrecque/Steamworks.NET.git?path=/com.rlabrecque.steamworks.net",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "cea16ef1994b811e7381609c78487e991bf35566"
+    },
     "com.unity.2d.animation": {
       "version": "8.0.2",
       "depth": 0,

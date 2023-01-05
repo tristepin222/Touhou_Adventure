@@ -190,11 +190,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7649751213428736
-    m_Localized: i need to go to the train station
+    m_Localized: You're ready to go the train station
     m_Metadata:
       m_Items: []
   - m_Id: 7658849648660480
-    m_Localized: if i remember correctly the station is to the north of my apartment
+    m_Localized: Today is a special day, you're travelling to tokyo
     m_Metadata:
       m_Items: []
   - m_Id: 7662184531382272
@@ -993,10 +993,129 @@ MonoBehaviour:
     m_Localized: Spinach
     m_Metadata:
       m_Items: []
+  - m_Id: 159913142497267712
+    m_Localized: Welcome to Kourindou !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159913354561277952
+    m_Localized: I'm the great collector of this land, feel free to give me anything
+      you want
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160155529828061184
+    m_Localized: Hello ! nice to meet you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160155591366889472
+    m_Localized: I usually read books but someone stole all of my books
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160527611254493184
+    m_Localized: Seeds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160527624793706496
+    m_Localized: Plants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160527649074532352
+    m_Localized: Fishes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160527667005181952
+    m_Localized: Minerals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160528504846766080
+    m_Localized: I want to donate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164858556849803264
+    m_Localized: HHello...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164889066204516352
+    m_Localized: Who are you ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164909622534557696
+    m_Localized: Nice to meet you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164995427265368064
+    m_Localized: You're not dead, are you ?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164995620299821056
+    m_Localized: You're alive, very alive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164995750482628608
+    m_Localized: Entropy will claim you
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164995971887353856
+    m_Localized: Everything has an end
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164996025767383040
+    m_Localized: Nothing lasts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167541065777631232
+    m_Localized: YYou're Pathetic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167541128100794368
+    m_Localized: Look at you, you think you can overcome the struggles of life
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167541418258550784
+    m_Localized: You're shameful, you won't succeed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167541489213591552
+    m_Localized: You'll always be useless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167541556347621376
+    m_Localized: You'll fail at everything
+    m_Metadata:
+      m_Items:
+      - rid: 6437797089713587076
+  - m_Id: 167541675067396096
+    m_Localized: You think you can escape me
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167541793216745472
+    m_Localized: You're nothing but lonely !
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167541880068198400
+    m_Localized: You won't get pass this point.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167544194497728512
+    m_Localized: you're going to sit as the train is ready to leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167544212550012928
+    m_Localized: As the trip is very long you decide to take a nap, for the worst
+      or the best
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167576367732838400
+    m_Localized: Screen mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167576369469280256
+    m_Localized: Screen Resolution
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
     - rid: 6437797089713587076
       type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
       data:
-        m_Entries: 0050f2e51e369c000050b23ec7639d000050722401669d00005032c12f749d00
+        m_Entries: 0050f2e51e369c000050b23ec7639d000050722401669d00005032c12f749d0000503767283a5302

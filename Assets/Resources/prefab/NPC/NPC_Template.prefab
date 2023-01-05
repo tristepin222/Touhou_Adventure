@@ -19,9 +19,10 @@ GameObject:
   - component: {fileID: 1533708280}
   - component: {fileID: 1533708281}
   - component: {fileID: 1533708282}
+  - component: {fileID: 6873075337589210763}
   m_Layer: 0
   m_Name: NPC_Template
-  m_TagString: Untagged
+  m_TagString: dontCull
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1249650466, guid: 57e8948033d817245a8a6eddc17fab1e, type: 3}
+  m_Sprite: {fileID: -372620975, guid: e84d9ebbca075a84f97823b16516d8a3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -173,6 +174,8 @@ MonoBehaviour:
   inZone: 0
   instantiate: 1
   Interact: {fileID: 0}
+  giveSucces: 0
+  success: 
 --- !u!50 &1533708279
 Rigidbody2D:
   serializedVersion: 4
@@ -308,7 +311,27 @@ MonoBehaviour:
   sprites:
   - {fileID: 7949633705067622643}
   - {fileID: 7744082118210848082}
-  collider: {fileID: 1535034153}
+  colliders: []
+  otherSprites: []
+  otherColliders: []
+  spawn: 0
+--- !u!114 &6873075337589210763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7111570838977608114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 028976209eee02544b33a18d664931f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  sortingorderNumber: 
+  renderers:
+  - {fileID: 7949633705067622643}
+  - {fileID: 7744082118210848082}
 --- !u!1 &9213814779176483937
 GameObject:
   m_ObjectHideFlags: 0

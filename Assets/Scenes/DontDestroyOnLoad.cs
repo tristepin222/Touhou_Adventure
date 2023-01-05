@@ -43,6 +43,7 @@ public class DontDestroyOnLoad : MonoBehaviour
 
     public void init()
     {
+     
         SpriteRenderer[] sp2 = new SpriteRenderer[2];
         if (GlobalControl.Instance != null)
         {
@@ -153,5 +154,6 @@ public class DontDestroyOnLoad : MonoBehaviour
                 }
             }
         }
+      
     }
 }

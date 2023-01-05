@@ -87,7 +87,9 @@ public class Menu : MonoBehaviour
             }
             else if (GlobalControl.Instance == null)
             {
-                loadingScreen.sceneString = "PlayerHouseWorld";
+                dataStatic.Instance.savedDay = 0.4f;
+                loadingScreen.sceneString = "Intro";
+                //loadingScreen.sceneString = "PlayerHouseWorld";
 
             }
             else
@@ -193,7 +195,51 @@ public class Menu : MonoBehaviour
             dataStatic.Instance.money = saver.money;
             dataStatic.Instance.savedDay = saver.time;
             dataStatic.Instance.currentday = saver.day;
-           
+
+            if (saver.plows == null)
+            {
+                dataStatic.Instance.plows = new int[50, 50];
+            }
+            else
+            {
+                dataStatic.Instance.plows = new int[saver.sizePlowsX, saver.sizePlowsY];
+                int ind = 0;
+                for (int col = 0; col < saver.sizePlowsX; col++)
+                {
+
+                    for (int row = 0; row < saver.sizePlowsY; row++)
+                    {
+                        dataStatic.Instance.plows[row, col] = saver.plows[ind];
+                        ind++;
+                    }
+
+                }
+            }
+            if (saver.plants == null)
+            {
+                dataStatic.Instance.plantsInt = new int[50, 50];
+                dataStatic.Instance.plantNames = new string[50, 50];
+                dataStatic.Instance.plantsStages = new int[50, 50];
+            }
+            else
+            {
+                dataStatic.Instance.plantsInt = new int[saver.sizePlantsX, saver.sizePlantsY];
+                dataStatic.Instance.plantNames = new string[saver.sizePlantsX, saver.sizePlantsY];
+                dataStatic.Instance.plantsStages = new int[saver.sizePlantsX, saver.sizePlantsY];
+                int ind = 0;
+                for (int col = 0; col < saver.sizePlantsX; col++)
+                {
+
+                    for (int row = 0; row < saver.sizePlantsY; row++)
+                    {
+                        dataStatic.Instance.plantsInt[row, col] = saver.plants[ind];
+                        dataStatic.Instance.plantNames[row, col] = saver.plantNames[ind];
+                        dataStatic.Instance.plantsStages[row, col] = saver.plantsStages[ind];
+                        ind++;
+                    }
+
+                }
+            }
         }
            
             dataStatic.Instance.scene = saver.scene;
@@ -204,6 +250,7 @@ public class Menu : MonoBehaviour
             dataStatic.Instance.lvl = saver.lvl;
             dataStatic.Instance.xp = saver.xp;
             dataStatic.Instance.nextXp = saver.nextXp;
+            dataStatic.Instance.museumItems = saver.museumItems;
         foreach (int id in saver.IDs)
         {
 

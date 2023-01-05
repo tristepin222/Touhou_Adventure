@@ -119,6 +119,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fights/FightSceneKeine.unity
     guid: da41fab42cad2a741ac41f535b6f7e18
+  - enabled: 1
+    path: Assets/Scenes/Buildings/KourindouInside.unity
+    guid: da46b054e1dc4244ebf217b2882e8a4e
+  - enabled: 1
+    path: Assets/Scenes/Places/Intro.unity
+    guid: b49fba3a9f9e0ae4ba08be287e2fa829
+  - enabled: 1
+    path: Assets/Scenes/Buildings/KomachiInside.unity
+    guid: 86440a8dfb1b0874586e405d34fb77c9
+  - enabled: 1
+    path: Assets/Scenes/Places/Voyage.unity
+    guid: 9da8b8d3009c49b4399ab0ed57508b66
+  - enabled: 1
+    path: Assets/Scenes/Places/Intro 1.unity
+    guid: 31f146b18e1a4cd469f22556f5df475f
+  - enabled: 1
+    path: Assets/Scenes/Places/Pantheon.unity
+    guid: eee57a83d76568d4a869cd61a2768408
+  - enabled: 1
+    path: Assets/Scenes/Buildings/pantheonInside.unity
+    guid: 8984e0b55bbff054db32376eed0598ce
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 6e916316ba7847f4587506d78707e6a9, type: 2}
     com.unity.localization.addressable-group-rules: {fileID: 11400000, guid: 14f1478d20d9991418500cbd3a0df00b, type: 2}

@@ -12,6 +12,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 361220009, guid: a4b83819069d47648bc813664fa981ba, type: 3}
+    - target: {fileID: 20335325190331897, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 20335325190331897, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: m_SortingLayer
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 20335325190331897, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: m_SortingOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 20335325190331897, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1654309269
+      objectReference: {fileID: 0}
     - target: {fileID: 333255637797649969, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
       propertyPath: m_Name
       value: Carrot
@@ -61,9 +77,45 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.t
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.item
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.amount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.weight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.maxAmount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.itemNumber
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
       propertyPath: itemScriptableObject
       value: 
       objectReference: {fileID: 11400000, guid: 3ef1083331b0b79418c68232387f161f, type: 2}
+    - target: {fileID: 5359895501780651126, guid: 70ba919000a2c5f46aae34099869a492, type: 3}
+      propertyPath: item.itemScriptableObject
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 70ba919000a2c5f46aae34099869a492, type: 3}

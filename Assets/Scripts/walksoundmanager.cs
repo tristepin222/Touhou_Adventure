@@ -35,6 +35,10 @@ public class walksoundmanager : MonoBehaviour
         
         
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        StartCoroutine(proccess(collision.tag));
+    }
     IEnumerator proccess(string str)
     {
 

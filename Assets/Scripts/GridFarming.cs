@@ -16,6 +16,7 @@ public class GridFarming : MonoBehaviour
     public Vector3 originPos;
     private void Start()
     {
+       
         int i = 0;
         if (instantiate)
         {
@@ -37,7 +38,7 @@ public class GridFarming : MonoBehaviour
                     comp.x = x;
                     comp.y = y;
                     gameObjects[x, y] = b;
-                    DontDestroyOnLoad(b);
+                    DontDestroyOnLoad(this);
                     b.tag = "Dynamic2";
                     b.GetComponent<objectInfo>().sceneIndex = 2;
                 }
@@ -49,6 +50,7 @@ public class GridFarming : MonoBehaviour
             originPos = farm[0].transform.position;
             grid = new int[width, height];
             gameObjects = new GameObject[width, height];
+           
             for (int x = 0; x < grid.GetLength(0); x++)
             {
                
@@ -64,14 +66,31 @@ public class GridFarming : MonoBehaviour
                     comp.x = x;
                     comp.y = y;
                     gameObjects[x, y] = b;
-                    DontDestroyOnLoad(b);
+                    DontDestroyOnLoad(this);
                     
                    
                     i++;
                 }
 
             }
+            if (dataStatic.Instance.plows  == null)
+            {
+                dataStatic.Instance.plows = new int[width, height];
+            }
+            else
+            {
+                for (int x = 0; x < grid.GetLength(0); x++)
+                {
+
+                    for (int y = 0; y < grid.GetLength(1); y++)
+                    {
+                        SetValueFromSave(x, y, dataStatic.Instance.plows[x,y]);
+                    }
+                }
+            }
         }
+
+   
     }
 
     private Vector3 getPosition(int x, int y)
@@ -88,6 +107,7 @@ public class GridFarming : MonoBehaviour
     {
         if(x >= 0 && y >= 0 && x < width && y < height){
             grid[x, y] = value;
+            dataStatic.Instance.plows[x, y] = value;
             plant comp =  gameObjects[x, y].GetComponent<plant>();
             comp.state = value;
             if(value == 2)
@@ -100,7 +120,28 @@ public class GridFarming : MonoBehaviour
             }
         }
     }
-
+    public void SetValueFromSave(int x, int y, int value)
+    {
+        if (x >= 0 && y >= 0 && x < width && y < height)
+        {
+            grid[x, y] = value;
+            dataStatic.Instance.plows[x, y] = value;
+            plant comp = gameObjects[x, y].GetComponent<plant>();
+            comp.state = value;
+            if (value == 2)
+            {
+                if (dataStatic.Instance.plantNames[x, y] != null && dataStatic.Instance.plantNames[x, y] != "")
+                {
+                    comp.plow(x, y);
+                    comp.plantSeed(x, y, dataStatic.Instance.plantNames[x, y]);
+                }
+            }
+            if (value == 1)
+            {
+                comp.plow(x, y);
+            }
+        }
+    }
     public void SetValue(Vector3 worldPosition, int value)
     {
         int x, y;

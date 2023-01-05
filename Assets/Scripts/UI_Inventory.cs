@@ -57,6 +57,12 @@ public class UI_Inventory : MonoBehaviour
         }
        
         FullException.enabled = false;
+        int i2 = 0;
+        foreach (GameObject slot in gameObjects)
+        {
+            slot.GetComponent<UI_inventoryItemSlot>().itemi = i2;
+            i2++;
+        }
     }
     public void SetInventory(Inventory inventory, HotKeySystem hotKeySystem)
     {
@@ -158,7 +164,7 @@ public class UI_Inventory : MonoBehaviour
         else
         {
             currentSlot = x;
-            textcontent.enabled = true;
+           
             
             text2.text = item.name;
            myString.TableEntryReference = item.name;

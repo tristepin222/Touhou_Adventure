@@ -35,6 +35,15 @@ public class saver
     public int[] indexes2;
     public int[] indexes3;
     public bool[] encounters;
+    public bool[] museumItems;
+    public int[] plants;
+    public int[] plows;
+    public string[] plantNames;
+    public int[] plantsStages;
+    public int sizePlowsX;
+    public int sizePlowsY;
+    public int sizePlantsX;
+    public int sizePlantsY;
     public int day;
     public float time;
     public saver(GlobalControl data, options data2, dataStatic data3)
@@ -57,6 +66,7 @@ public class saver
         clothes = new string[8];
         colors = new float[8, 3];
         clothesi = new int[8];
+        museumItems = new bool[100];
         objectiveCompleted = data.obtosv.ToArray();
         money = data.money;
         characterName = data3.characterName;
@@ -131,9 +141,57 @@ public class saver
             }
             index1++;
         }
+        if(data3.plows == null)
+        {
+            data3.plows = new int[1, 1];
+        }
+        sizePlowsX = data3.plows.GetLength(0);
+        sizePlowsY = data3.plows.GetLength(1);
+        plows = new int[data3.plows.Length];
+        int intd = 0;
+        for (int col = 0; col < data3.plows.GetLength(0); col++)
+        {
+           
+            for (int row = 0; row < data3.plows.GetLength(1); row++)
+            {
+                plows[intd]  = data3.plows[row, col];
+                intd++;
+            }
+
+        }
+
+        if (data3.plants == null)
+        {
+            data3.plants = new grow[1, 1];
+
+        }
+        sizePlantsX = data3.plants.GetLength(0);
+        sizePlantsY = data3.plants.GetLength(1);
+        plants = new int[data3.plants.Length];
+        plantNames = new string[data3.plants.Length];
+        plantsStages = new int[data3.plants.Length];
+        intd = 0;
+        for (int col = 0; col < data3.plants.GetLength(0); col++)
+        {
+
+            for (int row = 0; row < data3.plants.GetLength(1); row++)
+            {
+                if (data3.plants[row, col] != null)
+                {
+                    plants[intd] = data3.plants[row, col].Time;
+                    plantNames[intd] = data3.plants[row, col].Name;
+                    plantsStages[intd] = data3.plants[row, col].Stage;
+                   
+                }
+                intd++;
+            }
+
+        }
+
         encounters = data.encounters;
         time = data3.savedDay;
         day = data.currentDay;
+        museumItems = data.museumItem;
     }
    
 }

@@ -25,7 +25,8 @@ public class actions
         ShowDialogue,
         Dissapear,
         freezeAll,
-        Apprear
+        Apprear,
+        GiveSuccess
     }
 
     public actionType action;
@@ -38,4 +39,5 @@ public class actions
     public ScoreScreen scoreScreen;
     public Objective objective;
     public int moneyAmount;
+    public string achievement;
 }

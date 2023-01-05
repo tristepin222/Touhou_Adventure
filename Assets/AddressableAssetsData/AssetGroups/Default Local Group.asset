@@ -21,14 +21,17 @@ MonoBehaviour:
     m_Address: Localization Settings - Copy
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c817accea0d41324d80cbe8f94a09156
     m_Address: Cloth
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d4518ab164d676942aa10a7a50a6813c
     m_Address: Test
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: c9fba5e891a5503438430891b8c8e3ac, type: 2}
   m_SchemaSet:
